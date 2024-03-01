@@ -14,5 +14,8 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@nuxt/image',
-  ]
+  ],
+  image: {
+    provider: "ipx"
+  }
 })

@@ -19,7 +19,7 @@ const toggler = ref(false);
   <div class="mt-6 overflow-hidden rounded lg:mt-0" v-bind="$attrs">
     <div class="flex items-center justify-between w-full mb-5">
       <span class="font-medium">{{ title }}</span>
-      <NuxtLink
+      <NuxtLink 
         to="/gallery/new"
         class="flex items-center px-3 py-1 space-x-1 text-sm font-medium text-blue-500 transition duration-300 rounded-md hover:bg-blue-50"
       >
