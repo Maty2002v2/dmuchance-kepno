@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     },
   },
   plugins: [
-    { src: "@/plugins/aos", ssr: false, mode: "client" }
+    { src: "@/plugins/aos", ssr: false, mode: "client" },
+    { src: "@/plugins/fslightbox", ssr: false, mode: "client" }
   ],
+  modules: [
+    '@nuxt/image',
+  ]
 })

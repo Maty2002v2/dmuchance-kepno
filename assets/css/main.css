@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.transform-fade-down-enter-active,
+.transform-fade-down-leave-active {
+  @apply transition-all duration-300 translate-y-0;
+}
+.transform-fade-down-enter, .transform-fade-down-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  @apply transform -translate-y-2 opacity-0;
+}
+
+.paragraph {
+  @apply leading-relaxed tracking-wide text-gray-700;
+}
+
+
+/* for remove arrow spinner button on input number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
