@@ -446,53 +446,53 @@ const steps = [
       <div
         class="relative grid max-w-screen-xl grid-cols-12 px-4 mx-auto sm:px-2 gap-x-6"
       >
-        <LandingTradingToolImage class="sm:hidden" />
+        <div data-aos="fade-left" class="hidden col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6 sm:block">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155.69870778702514!2d18.02168113632166!3d51.36299996251659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471aa1c5c5a5fab9%3A0xdf94993d81c29288!2sMikorzyn!5e0!3m2!1spl!2spl!4v1709389835637!5m2!1spl!2spl" 
+          title="map with location" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
         <div
           data-aos="fade-right"
           class="col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6"
         >
           <h2 class="text-4xl font-semibold">
-            Advanced Trading <span class="text-header-gradient">Tools</span>
+            Skontaktuj się <span class="text-header-gradient">z nami</span>
           </h2>
           <div class="space-y-2">
             <h4 class="text-lg font-medium">
-              Professional Access, Non-stop Availability
+              Telefonicznie
             </h4>
             <p class="text-sm paragraph xl:text-base">
-              We provide premium access to crypto trading for both individuals and
-              institutions through high liquidity, reliable order execution and constant
-              uptime.
+              +12 234 456 789 <br/>
+              +12 234 456 789
             </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">A Range of Powerful Apis</h4>
+            <h4 class="text-lg font-medium">Mailowo</h4>
             <p class="text-sm paragraph xl:text-base">
-              Set up your own trading interface or deploy your algorithmic strategy with
-              our high-performance FIX and HTTP APIs. Connect to our WebSocket for
-              real-time data streaming.
+              adresemail@gmail.com
             </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Customer Support</h4>
+            <h4 class="text-lg font-medium">Jesteśmy dostępni pod adresem</h4>
             <p class="text-sm paragraph xl:text-base">
-              Premium 24/7 support available to all customers worldwide by phone or email.
-              Dedicated account managers for partners.
+              Mikorzyn nr domu <br/>
+              63-600 Kępno
             </p>
           </div>
-          <div class="flex flex-col sm:flex-row">
-            <BaseButton
-              class="px-10 py-4 bg-inherit text-gradient border border-[#4A8FF6] text-base"
-            >
-              Get Started
-            </BaseButton>
-            <BaseButton
-              class="bg-inherit text-[#4A8FF6] px-10 py-4 text-center underline rounded-full"
-            >
-              Learn More
-            </BaseButton>
+          <div class="flex flex-col gap-2 sm:flex-row">
+            <a href="tel:+4733378901">
+              <BaseButton
+                class="px-10 py-4 bg-inherit text-gradient border border-[#4A8FF6] text-base"
+              >
+                Zadzwoń
+              </BaseButton>
+            </a>
           </div>
         </div>
-        <LandingTradingToolImage data-aos="fade-left" class="hidden sm:block" />
+        <div data-aos="fade-left" class="block col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6 sm:hidden">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155.69870778702514!2d18.02168113632166!3d51.36299996251659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471aa1c5c5a5fab9%3A0xdf94993d81c29288!2sMikorzyn!5e0!3m2!1spl!2spl!4v1709389835637!5m2!1spl!2spl" 
+          title="map with location" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
       </div>
     </section>
 
