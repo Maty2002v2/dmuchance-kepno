@@ -383,10 +383,10 @@ const steps = [
         class="flex flex-col items-center justify-center w-full px-6 py-16 space-y-4 text-center sm:px-0"
       >
         <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
-          Trusted Partners Worldwide
+          Zaufali nam już przede wszyscy
         </h3>
         <p data-aos="flip-down" class="paragraph">
-          We're partners with countless major organisations around the globe
+          Co roku współpracujemy z:
         </p>
         <div data-aos="fade-up" class="flex flex-wrap items-center justify-center">
           <LandingPartnerImage
@@ -400,34 +400,41 @@ const steps = [
             :img="img"
           />
         </div>
-      </div>
+        </div>
     </section>
 
     <!-- Credit card section -->
-    <section class="w-full my-36">
+    <section class="w-full my-24">
       <BaseSection data-aos="fade-down">
-        <div class="col-span-12 lg:col-span-7">
-          <div class="w-full">
-            <img src="@/assets/img/nefa-cc.webp" class="w-[95%]" alt="" />
-          </div>
-        </div>
-        <div class="col-span-12 px-4 mt-20 space-y-6 lg:col-span-5 sm:px-6">
-          <h2 class="text-4xl font-semibold">
-            Introducing the <span class="text-header-gradient">NEFA</span> Credit Card
-          </h2>
-          <p class="paragraph">
-            Subject to cardholder and rewards terms which will be available at
-            application.
-          </p>
-          <ul class="space-y-4 sm:space-y-2">
-            <LandingListItem title="Up to 3% back on purchases" />
-            <LandingListItem title="Earn rewards in bitcoin or any crypto on NEFA" />
-            <LandingListItem title="No annual fee" />
-          </ul>
-          <BaseButton
-            class="w-full sm:max-w-[240px] px-10 py-4 bg-inherit text-gradient border border-[#0c66ee] text-base"
-            >Join the waitlist</BaseButton
+        <div class="col-span-12">
+          <div
+            class="flex flex-col items-center justify-center w-full px-6 space-y-4 text-center sm:px-0"
           >
+            <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
+              Dmuchane zamki Kępno w liczbach
+            </h3>
+            <p data-aos="flip-down" class="paragraph">
+              Dane aktualizowane na bierząco
+            </p>
+
+            <div class="flex items-center justify-center w-full flex-row flex-wrap !mt-10 sm:gap-0 gap-5">
+              <LandingInNumber :finishValue="18" color="text-sky-400">
+                Lat doświadczenia
+              </LandingInNumber>
+
+              <LandingInNumber :finishValue="60" color="text-sky-400" :setPlus="true">
+                Zaliczone imprezy
+              </LandingInNumber>
+
+              <LandingInNumber :finishValue="23" color="text-sky-400">
+                Dostępnych atrkacji
+              </LandingInNumber>
+
+              <LandingInNumber :finishValue="7" color="text-sky-400">
+                Dni dostępnych w tygodniu
+              </LandingInNumber>
+            </div>
+          </div>
         </div>
       </BaseSection>
     </section>
