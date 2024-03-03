@@ -1,129 +1,4 @@
 <script lang="ts" setup>
-const selected = 0;
-const dropdownConcurency = false;
-const dropdownCrypto = false;
-const currencySelected = {
-  img: "country-icon/eng.png",
-  name: "USD",
-};
-const currencies = [
-  {
-    img: "country-icon/eng.png",
-    name: "USD",
-  },
-];
-const cryptoSelected = {
-  img: "crypto-icon/bitcoin.png",
-  name: "BTC",
-};
-const cryptocurrencies = [
-  {
-    img: "crypto-icon/bitcoin.png",
-    name: "BTC",
-  },
-];
-const trendings = [
-  {
-    id: 1,
-    name: "Bitcoin",
-    price: 43180.13,
-    logo: "bitcoin.png",
-    increase: true,
-    data: [40, 35, 60, 75, 60, 75, 50],
-  },
-  {
-    id: 2,
-    name: "Ethereum",
-    price: 3480.65,
-    logo: "ethereum.png",
-    increase: false,
-    data: [25, 30, 60, 50, 80, 55, 80],
-  },
-  {
-    id: 3,
-    name: "Solana",
-    price: 150.2,
-    logo: "solana.png",
-    increase: true,
-    data: [40, 45, 40, 80, 50, 60, 35],
-  },
-  {
-    id: 4,
-    name: "Dogecoin",
-    price: 0.1572,
-    logo: "dogecoin.png",
-    increase: true,
-    data: [35, 70, 60, 80, 50, 60, 40],
-  },
-];
-const topGainers = [
-  {
-    id: 1,
-    name: "PAPPAY",
-    price: 0.00374,
-    logo: "pappay.png",
-    increase: true,
-    data: [30, 50, 45, 60, 70, 40, 45],
-  },
-  {
-    id: 2,
-    name: "Bitcoin Asia",
-    price: 0.02096,
-    logo: "bitcoin-asia.png",
-    increase: true,
-    data: [25, 60, 50, 60, 35, 50, 70],
-  },
-  {
-    id: 3,
-    name: "MoonRock",
-    price: 0.004907,
-    logo: "moonrock.png",
-    increase: true,
-    data: [40, 35, 40, 25, 50, 70, 45],
-  },
-  {
-    id: 4,
-    name: "NinjaFloki",
-    price: 0.000123,
-    logo: "ninjafloki.png",
-    increase: true,
-    data: [45, 35, 40, 30, 25, 45, 35],
-  },
-];
-const recents = [
-  {
-    id: 1,
-    name: "MetaCraft",
-    price: 0.0608,
-    logo: "metacraft.png",
-    increase: false,
-    data: [40, 50, 45, 60, 35, 40, 45],
-  },
-  {
-    id: 2,
-    name: "Frog",
-    price: 0.5875,
-    logo: "frog.png",
-    increase: false,
-    data: [25, 50, 45, 48, 40, 60, 45],
-  },
-  {
-    id: 3,
-    name: "Musk Doge",
-    price: 0.04041,
-    logo: "musk-doge.png",
-    increase: true,
-    data: [25, 35, 60, 45, 50, 45, 45],
-  },
-  {
-    id: 4,
-    name: "2SHARE",
-    price: 1366.24,
-    logo: "2share.png",
-    increase: true,
-    data: [35, 30, 60, 50, 35, 45, 40],
-  },
-];
 const accordions = [
   {
     title: "Why should I choose NEFA?",
@@ -171,10 +46,10 @@ const steps = [
 <template>
   <div class="w-full overflow-hidden">
     <!-- Hero section -->
-    <section id="hero" class="w-full pb-24">
+    <section id="hero" class="w-full pb-16">
       <BaseSection>
         <div
-          class="col-span-12 px-6 mt-12 space-y-4 text-center lg:col-span-6 xl:mt-10 sm:space-y-6 sm:text-left"
+          class="col-span-12 mt-12 space-y-4 text-center lg:col-span-6 xl:mt-10 sm:space-y-6 sm:text-left"
         >
           <span
             data-aos="fade-right"
@@ -255,54 +130,64 @@ const steps = [
       </BaseSection>
     </section>
 
-    <section
-      class="max-w-screen-xl mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform mt-14 mb-24"
-    >
-      <div class="flex flex-col items-center justify-center w-full overflow-hidden lg:flex-row">
-        <div 
-          data-aos="fade-up"
-          class="w-full mt-6 space-y-6 border-gray-200 lg:w-1/4 lg:mt-0 xl:border-r lg:px-8"
-        >
-          <div class="flex flex-col items-center text-center">
-            <EmoticonHappyOutlineIcon size="50"/>
-            Atrakcje, które rozbudzą dziecięcą wyobraźnię!
+    <section class="relative w-full my-24">
+      <BaseSection>
+        <div data-aos="fade-up" class="relative col-span-12 md:col-span-6">
+          <div class="space-y-2">
+            <p class="text-lg font-medium">
+              Nasza firma zajmuje się <span class="text-header-gradient">wynajmem urządzeń rekreacyjnych</span>. 
+              Jesteśmy od <span class="text-header-gradient">18 lat</span> na rynku. Współpracujemy z gminami, ośrodkami kultury, 
+              radami soleckimi, szkołami, przedszkolami. <span class="text-header-gradient">Wystawiamy FV</span>.
+            </p>
           </div>
         </div>
-
-        <div 
-          data-aos="fade-up"
-          data-aos-delay="150"
-          class="w-full mt-6 space-y-6 border-gray-200 lg:w-1/4 lg:mt-0 xl:border-r lg:px-8"
-        >
-          <div class="flex flex-col items-center text-center">
-          <VectorLineIcon size="50"/>
-            Zamki skrojone na miarę twojej imprezy!
-          </div>
+        <div data-aos="fade-down" class="relative order-first col-span-12 md:col-span-6 md:order-last">
+          <iframe width="100%" 
+            height="315" 
+            src="https://www.youtube.com/embed/YpPHmjek9nk?si=fkxEM1rVOiR9YM0o" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe>
         </div>
-
-        <div 
-          data-aos="fade-up"
-          data-aos-delay="300"
-          class="w-full mt-6 space-y-6 border-gray-200 lg:w-1/4 lg:mt-0 xl:border-r lg:px-8"
-        >
-          <div class="flex flex-col items-center text-center">
-          <AccountFileTextOutlineIcon size="50"/>
-            Doświadczenie, na które możesz liczyć!
-          </div>
-        </div>
-
-        <div 
-          data-aos="fade-up"
-          data-aos-delay="450"
-          class="w-full mt-6 space-y-6 border-gray-200 lg:w-1/4 lg:mt-0 lg:px-8"
-        >
-          <div class="flex flex-col items-center text-center">
-            <BookOpenBlankVariantOutlineIcon size="50"/>
-              Wszystok co najlepsze prosto i przejrzysto!
-          </div>
-        </div>
-      </div>
+      </BaseSection>
     </section>
+
+    <section class="w-full shadow py-28 bg-partner md:rounded-2xl">
+      <BaseSection data-aos="fade-down">
+        <div class="col-span-12">
+          <div
+            class="flex flex-col items-center justify-center w-full px-6 space-y-4 text-center sm:px-0"
+          >
+            <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
+              Dmuchane zamki Kępno w liczbach
+            </h3>
+            <p data-aos="flip-down" class="paragraph">
+              Dane aktualizowane na bierząco
+            </p>
+
+            <div class="flex items-center justify-center w-full flex-row flex-wrap !mt-10 sm:gap-0 gap-5">
+              <LandingInNumber :finishValue="18" color="text-sky-400" class="border-l">
+                Lat doświadczenia
+              </LandingInNumber>
+
+              <LandingInNumber :finishValue="60" color="text-sky-400" :setPlus="true">
+                Zaliczone imprezy
+              </LandingInNumber>
+
+              <LandingInNumber :finishValue="23" color="text-sky-400">
+                Dostępnych atrkacji
+              </LandingInNumber>
+
+              <LandingInNumber :finishValue="7" color="text-sky-400">
+                Dni dostępnych w tygodniu
+              </LandingInNumber>
+            </div>
+          </div>
+        </div>
+      </BaseSection>
+    </section>
+
 
     <!-- Crypto statistic section -->
     <!-- <section
@@ -344,7 +229,7 @@ const steps = [
     </section> -->
 
     <!-- Buy and trade section -->
-    <section class="w-full mt-24 mb-24 sm:mt-56">
+    <section class="w-full mt-24 mb-12 sm:mb-24 sm:mt-48">
       <BaseSection>
         <LandingTile
           data-aos="fade-up"
@@ -375,7 +260,92 @@ const steps = [
       </BaseSection>
     </section>
 
+    <!-- class="max-w-screen-xl mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform !mt-48" -->
+    <section
+    class="w-full py-24 shadow bg-partner sm:rounded-2xl"
+    >
+      <BaseSection class="p-1">
+        <div class="flex flex-col items-center justify-center col-span-12 transform bg-white shadow-lg lg:flex-row sm:rounded-xl sm:shadow-md">
+          <div 
+            data-aos="fade-up"
+            class="w-full p-6 space-y-6 border-gray-200 lg:w-1/4 lg:mt-0 xl:border-r lg:p-8"
+          >
+            <div class="flex flex-col items-center text-center">
+              <EmoticonHappyOutlineIcon size="50"/>
+              Atrakcje, które rozbudzą dziecięcą wyobraźnię!
+            </div>
+          </div>
+
+          <div 
+            data-aos="fade-up"
+            data-aos-delay="150"
+            class="w-full p-6 space-y-6 border-gray-200 lg:w-1/4 lg:mt-0 xl:border-r lg:px-8"
+          >
+            <div class="flex flex-col items-center text-center">
+            <VectorLineIcon size="50"/>
+              Zamki skrojone na miarę twojej imprezy!
+            </div>
+          </div>
+
+          <div 
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="w-full p-6 border-gray-200 first:space-y-6 lg:w-1/4 lg:mt-0 xl:border-r lg:px-8"
+          >
+            <div class="flex flex-col items-center text-center">
+            <AccountFileTextOutlineIcon size="50"/>
+              Doświadczenie, na które możesz liczyć!
+            </div>
+          </div>
+
+          <div 
+            data-aos="fade-up"
+            data-aos-delay="450"
+            class="w-full p-6 space-y-6 border-gray-200 lg:w-1/4 lg:mt-0 lg:px-8"
+          >
+            <div class="flex flex-col items-center text-center">
+              <BookOpenBlankVariantOutlineIcon size="50"/>
+                Wszystok co najlepsze prosto i przejrzysto!
+            </div>
+          </div>
+        </div>
+      </BaseSection>
+    </section>
+
     <!-- Partners section -->
+
+    <!-- FAQ section -->
+    <section class="w-full my-24">
+      <BaseSection>
+        <!-- <div data-aos="fade-right" data-aos-delay="150" class="col-span-12 lg:col-span-6">
+          <div class="w-full">
+            <img src="@/assets/img/faq.webp" class="w-full" alt="" />
+          </div>
+        </div> -->
+        <div
+          data-aos="fade-left"
+          data-aos-delay="150"
+          class="col-span-12 px-4 mt-8 sm:px-6"
+        >
+          <span class="mb-4 text-base font-semibold uppercase text-gradient sm:mb-2"
+            >Support</span
+          >
+          <h2 class="mb-10 text-3xl font-semibold sm:text-4xl sm:mb-6">
+            Frequently asked questions
+          </h2>
+
+          <ul class="shadow-box">
+            <BaseAccordion
+              v-for="(accordion, index) in accordions"
+              :key="index"
+              :accordion="accordion"
+            />
+          </ul>
+        </div>
+      </BaseSection>
+    </section>
+
+    <!-- Credit card section -->
     <section
       class="relative max-w-full my-24 overflow-hidden shadow bg-partner sm:mx-6 sm:rounded-2xl"
     >
@@ -403,45 +373,9 @@ const steps = [
         </div>
     </section>
 
-    <!-- Credit card section -->
-    <section class="w-full my-24">
-      <BaseSection data-aos="fade-down">
-        <div class="col-span-12">
-          <div
-            class="flex flex-col items-center justify-center w-full px-6 space-y-4 text-center sm:px-0"
-          >
-            <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
-              Dmuchane zamki Kępno w liczbach
-            </h3>
-            <p data-aos="flip-down" class="paragraph">
-              Dane aktualizowane na bierząco
-            </p>
-
-            <div class="flex items-center justify-center w-full flex-row flex-wrap !mt-10 sm:gap-0 gap-5">
-              <LandingInNumber :finishValue="18" color="text-sky-400">
-                Lat doświadczenia
-              </LandingInNumber>
-
-              <LandingInNumber :finishValue="60" color="text-sky-400" :setPlus="true">
-                Zaliczone imprezy
-              </LandingInNumber>
-
-              <LandingInNumber :finishValue="23" color="text-sky-400">
-                Dostępnych atrkacji
-              </LandingInNumber>
-
-              <LandingInNumber :finishValue="7" color="text-sky-400">
-                Dni dostępnych w tygodniu
-              </LandingInNumber>
-            </div>
-          </div>
-        </div>
-      </BaseSection>
-    </section>
-
     <!-- Advanced trading tools section -->
     <section
-      class="relative max-w-full py-16 my-20 overflow-hidden shadow bg-trading-tools sm:mx-4 rounded-2xl"
+      class="relative max-w-full my-20 overflow-hidden sm:mx-4 rounded-2xl"
     >
       <div
         class="relative grid max-w-screen-xl grid-cols-12 px-4 mx-auto sm:px-2 gap-x-6"
@@ -497,7 +431,7 @@ const steps = [
     </section>
 
     <!-- Industry-leading security section -->
-    <section class="w-full my-24">
+    <!-- <section class="w-full my-24">
       <div class="relative grid max-w-screen-xl grid-cols-12 px-8 mx-auto gap-x-6">
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6">
           <div class="w-full">
@@ -539,10 +473,10 @@ const steps = [
           </ul>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Getting started section -->
-    <section
+    <!-- <section
       class="relative max-w-full my-24 overflow-hidden shadow bg-trading-tools sm:mx-4 xl:mx-10 sm:rounded-2xl"
     >
       <div class="flex flex-col items-center w-full py-16">
@@ -566,38 +500,7 @@ const steps = [
           />
         </div>
       </div>
-    </section>
-
-    <!-- FAQ section -->
-    <section class="w-full my-24">
-      <BaseSection>
-        <div data-aos="fade-right" data-aos-delay="150" class="col-span-12 lg:col-span-6">
-          <div class="w-full">
-            <img src="@/assets/img/faq.webp" class="w-full" alt="" />
-          </div>
-        </div>
-        <div
-          data-aos="fade-left"
-          data-aos-delay="150"
-          class="col-span-12 px-4 mt-8 lg:col-span-6 sm:px-6"
-        >
-          <span class="mb-4 text-base font-semibold uppercase text-gradient sm:mb-2"
-            >Support</span
-          >
-          <h2 class="mb-10 text-3xl font-semibold sm:text-4xl sm:mb-6">
-            Frequently asked questions
-          </h2>
-
-          <ul class="shadow-box">
-            <BaseAccordion
-              v-for="(accordion, index) in accordions"
-              :key="index"
-              :accordion="accordion"
-            />
-          </ul>
-        </div>
-      </BaseSection>
-    </section>
+    </section> -->
 
     <div class="flex justify-center w-full my-10">
       <a
