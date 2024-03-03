@@ -13,6 +13,11 @@ import EmoticonHappyOutlineIcon from 'vue-material-design-icons/EmoticonHappyOut
 import VectorLineIcon from 'vue-material-design-icons/VectorLine.vue'
 import AccountFileTextOutlineIcon from 'vue-material-design-icons/AccountFileTextOutline.vue'
 import BookOpenBlankVariantOutlineIcon from 'vue-material-design-icons/BookOpenBlankVariantOutline.vue'
+import PhoneIcon from 'vue-material-design-icons/Phone.vue'
+import EmailOutlineIcon from 'vue-material-design-icons/EmailOutline.vue'
+import FacebookIcon from 'vue-material-design-icons/Facebook.vue'
+import InstagramIcon from 'vue-material-design-icons/Instagram.vue'
+import YoutubeIcon from 'vue-material-design-icons/Youtube.vue'
 
 const components = {
   ChevronDownIcon,
@@ -29,7 +34,12 @@ const components = {
   VectorLineIcon,
   AccountFileTextOutlineIcon,
   BookOpenBlankVariantOutlineIcon,
-  ChevronLeftIcon
+  ChevronLeftIcon,
+  PhoneIcon,
+  EmailOutlineIcon,
+  FacebookIcon,
+  InstagramIcon,
+  YoutubeIcon
 }
 
 export default defineNuxtPlugin(nuxtApp => {

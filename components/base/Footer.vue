@@ -5,42 +5,61 @@
         <div
           class="md:w-full lg:w-full w-full sm:w-1/2 xl:w-fit flex flex-col sm:flex-row sm:px-6 py-6 sm:py-12 sm:space-x-10 sm:border-r-0 border-[#DDDDDD]"
         >
-          <div class="mb-6 sm:hidden xl:block sm:mb-0">
+          <div class="items-center mb-6 sm:hidden xl:flex sm:mb-0">
             <a href="#">
               <img src="@/assets/img/logo/logo.svg" class="w-24 -mt-2" alt="Nefa Logo" />
             </a>
           </div>
           <ul class="space-y-4">
-            <NavLink name="Cryptocurrency" url="#" />
-            <NavLink name="Exchanges" url="#" />
-            <NavLink name="Watchlist" url="#" />
-            <NavLink name="Portfolio" url="#" />
-            <NavLink name="NFT" url="#" />
+            <NavLink name="O nas" url="#aboutUs" />
+            <NavLink name="Nasz liczby" url="#ourNumbers" />
+            <NavLink name="Galeria" url="#gallery" />
           </ul>
         </div>
         <div
           class="md:w-full lg:w-full lg:border-r w-full sm:w-1/2 xl:w-fit sm:px-16 py-6 sm:py-12 border-t sm:border-t xl:border-r border-[#DDDDDD]"
         >
           <ul class="space-y-4">
-            <NavLink name="Products" url="#" />
-            <NavLink name="About Us" url="#" />
-            <NavLink name="Careers" url="#" />
-            <NavLink name="Blog" url="#" />
-            <NavLink name="Security" url="#" />
+            <NavLink name="Najczęstrze pytania" url="#faq" />
+            <NavLink name="Zaufali nam" url="#theyTrustedUs" />
+            <NavLink name="Kontakt" url="#contact" />
           </ul>
         </div>
         <div
-          class="md:w-full md:border-t lg:w-full w-full sm:w-1/2 xl:w-fit sm:px-16 py-6 sm:py-12 border-t sm:border-t-0 sm:border-r-0 border-[#DDDDDD]"
+          class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
         >
-          <ul class="space-y-4">
-            <NavLink name="Help Center" url="#" />
-            <NavLink name="Contact Us" url="#" />
-            <NavLink name="System Status" url="#" />
-            <NavLink name="Area of Avaibility" url="#" />
-            <NavLink name="Privacy Policy" url="#" />
-          </ul>
+          <h5 class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Kontakt</h5>
+          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+            <PhoneIcon />
+            +47 333 789 011
+          </p>
+          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+            <PhoneIcon />
+            +47 333 789 011
+          </p>
+          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+            <EmailOutlineIcon />
+            adresemail@gmail.com
+          </p>
         </div>
         <div
+          class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
+        >
+          <h5 class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Sociale</h5>
+          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+            <FacebookIcon />
+            Facebook
+          </p>
+          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+            <InstagramIcon />
+            Instagram
+          </p>
+          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+            <YoutubeIcon />
+            Youtube
+          </p>
+        </div>
+        <!-- <div
           class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
         >
           <h5 class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Newsletter</h5>
@@ -59,7 +78,7 @@
               <ArrowRightIcon :size="20" />
             </button>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="py-8 sm:py-4 text-center text-sm text-[#666666] hover:text-gray-900">

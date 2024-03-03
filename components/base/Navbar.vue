@@ -15,12 +15,13 @@
           :class="[open ? 'flex' : 'hidden lg:flex']"
           class="flex flex-col flex-grow w-full h-auto pb-4 space-y-3 duration-300 origin-top lg:items-center lg:pb-0 lg:justify-end lg:flex-row xl:space-x-2 lg:space-y-0"
         >
-          <NavLink name="Cryptocurrency" url="#" />
-          <NavLink name="Exchanges" url="#" />
-          <NavLink name="Watchlist" url="#" />
-          <NavLink name="NFT" url="#" />
-          <NavLink name="Portfolio" url="#" />
-          <li class="relative group">
+          <NavLink name="O nas" url="#aboutUs" />
+          <NavLink name="Nasz liczby" url="#ourNumbers" />
+          <NavLink name="Galeria" url="#gallery" />
+          <NavLink name="Najczęstrze pytania" url="#faq" />
+          <NavLink name="Zaufali nam" url="#theyTrustedUs" />
+          <NavLink name="Kontakt" url="#contact" />
+          <!-- <li class="relative group">
             <button
               class="md:px-4 py-2 text-sm bg-transparent rounded-lg text-[#666666] hover:text-gray-900 focus:outline-none focus:shadow-outline flex items-center"
               @click="dropdownToggler"
@@ -36,29 +37,35 @@
                 class="flex flex-col py-1 pl-2 rounded-md lg:absolute max-w-42 lg:bg-white lg:shadow-md lg:pl-0"
               >
                 <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Exchange</a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">O nas</a>
                 </li>
                 <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Wallet</a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">My w liczbach</a>
                 </li>
                 <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Explorer</a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Galeria</a>
                 </li>
                 <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Charts</a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Najczęstrze pytania</a>
+                </li>
+                <li>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Zaufali nam</a>
+                </li>
+                <li>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kontakt</a>
                 </li>
               </ul>
             </transition>
-          </li>
+          </li> -->
         </ul>
       </div>
       <div :class="[open ? 'flex' : 'hidden lg:flex']" class="space-x-3">
-        <base-button class="px-8 xl:px-10 py-3 mt-2 bg-inherit text-gradient border border-[#0c66ee]">
-          Login
-        </base-button>
-        <base-button class="px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">
-          Sign Up
-        </base-button>
+        <a href="tel:+4733378901">
+          <base-button class="flex items-center gap-3 px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">
+            <PhoneIcon />
+            +47 333 789 011
+          </base-button>
+        </a>
       </div>
     </div>
   </nav>

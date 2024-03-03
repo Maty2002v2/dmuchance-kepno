@@ -130,8 +130,13 @@ const steps = [
       </BaseSection>
     </section>
 
-    <section class="relative w-full my-24">
+    <section id="aboutUs" class="relative w-full my-24">
       <BaseSection>
+        <div class="flex justify-center w-full col-span-12">
+          <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
+            Trochę <span class="text-header-gradient">o nas</span>
+          </h3>
+        </div>
         <div data-aos="fade-up" class="relative col-span-12 md:col-span-6">
           <div class="space-y-2">
             <p class="text-lg font-medium">
@@ -153,14 +158,14 @@ const steps = [
       </BaseSection>
     </section>
 
-    <section class="w-full shadow py-28 bg-partner md:rounded-2xl">
+    <section id="ourNumbers" class="w-full shadow py-28 bg-partner md:rounded-2xl">
       <BaseSection data-aos="fade-down">
         <div class="col-span-12">
           <div
             class="flex flex-col items-center justify-center w-full px-6 space-y-4 text-center sm:px-0"
           >
             <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
-              Dmuchane zamki Kępno w liczbach
+              Dmuchane zamki Kępno w <span class="text-header-gradient">liczbach</span>
             </h3>
             <p data-aos="flip-down" class="paragraph">
               Dane aktualizowane na bierząco
@@ -190,47 +195,15 @@ const steps = [
 
 
     <!-- Crypto statistic section -->
-    <!-- <section
-      class="max-w-screen-xl mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform lg:-translate-y-12 my-24"
-    >
-      <div class="flex flex-col items-center justify-center w-full lg:flex-row">
-        <LandingCryptoStatistic
-          data-aos="fade-up"
-          title="🔥 Trending"
-          :datasets="trendings"
-          class="border-gray-200 xl:border-r lg:px-8"
-        />
-        <LandingCryptoStatistic
-          data-aos="fade-up"
-          data-aos-delay="150"
-          title="🚀 Top Gainers"
-          :datasets="topGainers"
-          class="border-gray-200 xl:border-r lg:px-8"
-        />
-        <LandingCryptoStatistic
-          data-aos="fade-up"
-          data-aos-delay="300"
-          title="💎 Recently Added"
-          :datasets="recents"
-          class="lg:px-8"
-        />
-        <LandingTile
-          data-aos="fade-up"
-          data-aos-delay="300"
-          title="💎 Recently Added"
-          class="w-full border-gray-200 xl:border-r lg:px-8 lg:w-1/3"
-        >
-        <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-          <div class="inline-block min-w-full px-2 py-2 overflow-hidden align-middle sm:px-6">
-          </div>
-        </div>
-        </LandingTile>
-      </div>
-    </section> -->
 
     <!-- Buy and trade section -->
-    <section class="w-full mt-24 mb-12 sm:mb-24 sm:mt-48">
+    <section id="gallery" class="w-full mt-24 mb-12 sm:mb-24 sm:mt-48">
       <BaseSection>
+        <div class="flex justify-center col-span-12">
+          <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
+            Nasza <span class="text-header-gradient">galeria</span> imprez i atrakcji
+          </h3>
+        </div>
         <LandingTile
           data-aos="fade-up"
           title="🔥 Nowości"
@@ -265,6 +238,11 @@ const steps = [
     class="w-full py-24 shadow bg-partner sm:rounded-2xl"
     >
       <BaseSection class="p-1">
+        <div class="flex justify-center col-span-12">
+          <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
+            Nasze <span class="text-header-gradient">gwarancje</span> dla ciebie
+          </h3>
+        </div>
         <div class="flex flex-col items-center justify-center col-span-12 transform bg-white shadow-lg lg:flex-row sm:rounded-xl sm:shadow-md">
           <div 
             data-aos="fade-up"
@@ -315,24 +293,24 @@ const steps = [
     <!-- Partners section -->
 
     <!-- FAQ section -->
-    <section class="w-full my-24">
+    <section id="faq" class="w-full my-24">
       <BaseSection>
-        <!-- <div data-aos="fade-right" data-aos-delay="150" class="col-span-12 lg:col-span-6">
-          <div class="w-full">
-            <img src="@/assets/img/faq.webp" class="w-full" alt="" />
-          </div>
-        </div> -->
+        <div class="flex justify-center col-span-12">
+          <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
+            Najczęstrze <span class="text-header-gradient">pytania</span>
+          </h3>
+        </div>
         <div
           data-aos="fade-left"
           data-aos-delay="150"
           class="col-span-12 px-4 mt-8 sm:px-6"
         >
-          <span class="mb-4 text-base font-semibold uppercase text-gradient sm:mb-2"
+          <!-- <span class="mb-4 text-base font-semibold uppercase text-gradient sm:mb-2"
             >Support</span
           >
           <h2 class="mb-10 text-3xl font-semibold sm:text-4xl sm:mb-6">
             Frequently asked questions
-          </h2>
+          </h2> -->
 
           <ul class="shadow-box">
             <BaseAccordion
@@ -347,13 +325,14 @@ const steps = [
 
     <!-- Credit card section -->
     <section
+      id="theyTrustedUs"
       class="relative max-w-full my-24 overflow-hidden shadow bg-partner sm:mx-6 sm:rounded-2xl"
     >
       <div
         class="flex flex-col items-center justify-center w-full px-6 py-16 space-y-4 text-center sm:px-0"
       >
         <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
-          Zaufali nam już przede wszyscy
+          Już <span class="text-header-gradient">zaufali nam</span> przede wszyscy
         </h3>
         <p data-aos="flip-down" class="paragraph">
           Co roku współpracujemy z:
@@ -375,6 +354,7 @@ const steps = [
 
     <!-- Advanced trading tools section -->
     <section
+      id="contact"
       class="relative max-w-full my-20 overflow-hidden sm:mx-4 rounded-2xl"
     >
       <div
@@ -504,7 +484,6 @@ const steps = [
 
     <div class="flex justify-center w-full my-10">
       <a
-        v-smooth-scroll
         data-aos="flip-down"
         data-aos-delay="150"
         href="#navbar"
@@ -518,6 +497,15 @@ const steps = [
 </template>
 
 <style scoped>
+#aboutUs,
+#ourNumbers,
+#gallery,
+#faq,
+#theyTrustedUs,
+#contact {
+  scroll-margin-top: 50px;
+}
+
 .text-header-gradient {
   background: rgb(57, 132, 244);
   background: linear-gradient(
