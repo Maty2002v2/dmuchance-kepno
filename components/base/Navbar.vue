@@ -11,7 +11,9 @@ const showOptions = computed(() => open.value || !isMobile?.value);
       <div class="flex flex-col items-center justify-center w-full space-x-4 lg:flex-row xl:space-x-8">
         <div class="flex flex-row items-center justify-between w-full py-6">
           <div>
-            <img src="@/assets/img/logo/logo.svg" class="w-24 xl:w-28" alt="Dmuchńce Kępno Logo" />
+            <a href="/">
+              <img src="@/assets/img/logo/logo.svg" class="w-24 xl:w-28" alt="Dmuchńce Kępno Logo" />
+            </a>
           </div>
           <button class="rounded-lg lg:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
             <SegmentIcon v-if="!open" :size="24" />
@@ -23,12 +25,12 @@ const showOptions = computed(() => open.value || !isMobile?.value);
             v-if="showOptions"
             class="flex flex-col flex-grow w-full h-auto pb-4 space-y-3 duration-300 origin-top lg:items-center lg:pb-0 lg:justify-end lg:flex-row xl:space-x-2 lg:space-y-0"
           >
-            <NavLink name="O nas" url="#aboutUs" />
-            <NavLink name="Nasz liczby" url="#ourNumbers" />
-            <NavLink name="Galeria" url="#gallery" />
-            <NavLink name="Najczęstrze pytania" url="#faq" />
-            <NavLink name="Zaufali nam" url="#theyTrustedUs" />
-            <NavLink name="Kontakt" url="#contact" />
+            <NavLink name="O nas" url="/#aboutUs" />
+            <NavLink name="Nasz liczby" url="/#ourNumbers" />
+            <NavLink name="Galeria" url="/#gallery" />
+            <NavLink name="Najczęstrze pytania" url="/#faq" />
+            <NavLink name="Zaufali nam" url="/#theyTrustedUs" />
+            <NavLink name="Kontakt" url="/#contact" />
           </ul>
         </Accordion>
       </div>

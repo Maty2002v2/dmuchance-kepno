@@ -123,7 +123,7 @@ const accordions = [
         <div data-aos="fade-down" class="relative col-span-12 md:col-span-6">
           <iframe width="100%" 
             height="315" 
-            src="https://www.youtube.com/embed/YpPHmjek9nk?si=fkxEM1rVOiR9YM0o" 
+            src="https://www.youtube.com/embed/J7UX0Zi4ATA?si=SUZqY28iV7sTCmSq" 
             title="YouTube video player" 
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -200,7 +200,7 @@ const accordions = [
           data-aos="fade-up"
           data-aos-delay="100"
           title="Baseny z kulkami"
-          pathPreview="/img/gallery/baseny/dmuchany basen z kulkami.jpeg"
+          pathPreview="/img/gallery/baseny/basen z kulkami.jpeg"
           pathPage="/galeria/baseny-z-kulkami"
           class="col-span-12 sm:col-span-6 md:col-span-4"
         />
