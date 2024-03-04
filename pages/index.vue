@@ -58,7 +58,7 @@ const accordions = [
             data-aos-delay="700"
             class="flex flex-col mt-2 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4"
           >
-            <a href="tel:+4733378901">
+          <a href="tel:+4733378901" class="mx-auto sm:mx-0">
             <BaseButton class="flex items-center gap-3 px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">
               <PhoneIcon />
               +47 333 789 011
