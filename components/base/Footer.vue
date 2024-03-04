@@ -81,8 +81,11 @@
         </div> -->
       </div>
     </div>
-    <div class="py-8 sm:py-4 text-center text-sm text-[#666666] hover:text-gray-900">
-      &copy; Copyright 2022 NEFA LLC. All rights reserved
+    <div class="pt-8 sm:pt-6 pb-3 text-center text-sm text-[#666666] hover:text-gray-900">
+      &copy; Copyright 2024 Dmuchane zamki Kępno. Wszystkie prawa zastrzeżone
+    </div>
+    <div class="pb-8 text-center text-sm text-[#666666] hover:text-gray-900">
+      Realizacja <a href="https://www.facebook.com/profile.php?id=100008562976078">Mateuz Małolepszy</a>
     </div>
   </footer>
 </template>
