@@ -1,44 +1,24 @@
 <script lang="ts" setup>
 const accordions = [
   {
-    title: "Why should I choose NEFA?",
+    title: "Kogo obsługujemy?",
     description:
-      "We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.",
+      "Obsuługujemy duże, średnie małe festyny, imprezy zbiorowe, prywatne, organizowane na zewnoątrz i w środku.",
   },
   {
-    title: "How secure is NEFA?",
+    title: "Czy wystawiamy faktury?",
     description:
-      "We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.",
+      "Oczywiście że tak. Na Jeśli klient sobie tego życzy to wystawimy fakturę",
   },
   {
-    title: "Do I have to buy a whole Bitcoin?",
+    title: "Dla kogo posiadamy atrakję?",
     description:
-      "We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.",
+      "Zapewniamy rozrywkę dla najmłodszych ale nie tylko dzieci będą się z nami dobrze bawiły. Dla dorosłych również posiadomy coś fajnego.",
   },
   {
-    title: "How do I actually buy Bitcoin?",
+    title: "Czy jesteśmy na imprezie znjmując się aktrakcjami?",
     description:
-      "We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.",
-  },
-];
-const steps = [
-  {
-    img: "sign-up.png",
-    title: "Sign Up",
-    description:
-      "Sign up for your free NEFA Wallet on web, iOS or Android and follow our easy process to set up your profile",
-  },
-  {
-    img: "fund.png",
-    title: "Fund",
-    description:
-      "Choose your preferred payment method such as bank transfer or credit card to top up your NEFA Wallet",
-  },
-  {
-    img: "buy-crypto.png",
-    title: "Buy Crypto",
-    description:
-      "Buy Bitcoin or Ethereum, then securely store it in your Wallet or send it on easily to your friends anywhere",
+      "Jasne że wezimniemy na siebie obowiązek dostarczenia, przygotowania i czuwania nad atrakcjami. Chyba że na prośbę mamy tyko przyjechać, rozłożyć i umówionego dnia przyjechać i posprzątać.",
   },
 ];
 </script>
@@ -46,7 +26,7 @@ const steps = [
 <template>
   <div class="w-full overflow-hidden">
     <!-- Hero section -->
-    <section id="hero" class="w-full pb-16">
+    <section id="hero" class="w-full pb-10 md:pb-20">
       <BaseSection>
         <div
           class="col-span-12 mt-12 space-y-4 text-center lg:col-span-6 xl:mt-10 sm:space-y-6 sm:text-left"
@@ -55,7 +35,7 @@ const steps = [
             data-aos="fade-right"
             data-aos-once="true"
             class="text-base font-semibold uppercase text-gradient"
-            >Sign Up Today</span
+            >Najlepsi dla Ciebie</span
           >
           <h1
             data-aos="fade-right"
@@ -70,8 +50,7 @@ const steps = [
             data-aos-delay="300"
             class="hidden paragraph sm:block"
           >
-            Buy and sell 200+ cryptocurrencies with 20+ flat currencies using bank
-            transfers or your credit/debit card.
+            Dmuchane zamki, zjeżdżalnie, atrakcję na festyny, urodziny i inne imprezy. Działamy nie tylko lokalnie w Kępnie czy wielkopolsce.
           </p>
           <div
             data-aos="fade-up"
@@ -79,17 +58,12 @@ const steps = [
             data-aos-delay="700"
             class="flex flex-col mt-2 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4"
           >
-            <BaseButton
-              class="max-w-full px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
-            >
-              Get Started
+            <a href="tel:+4733378901">
+            <BaseButton class="flex items-center gap-3 px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">
+              <PhoneIcon />
+              +47 333 789 011
             </BaseButton>
-            <BaseButton
-              class="max-w-full px-6 py-4 bg-inherit text-gradient border border-[#0c66ee] flex items-center justify-center"
-            >
-              <span>Download App</span>
-              <ChevronDownIcon :size="20" class="mt-1 text-[#0c66ee]" />
-            </BaseButton>
+          </a>
           </div>
         </div>
         <div class="hidden col-span-12 sm:flex lg:col-span-6">
@@ -130,7 +104,7 @@ const steps = [
       </BaseSection>
     </section>
 
-    <section id="aboutUs" class="relative w-full my-24">
+    <section id="aboutUs" class="relative w-full my-14 md:my-20">
       <BaseSection>
         <div class="flex justify-center w-full col-span-12">
           <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
@@ -146,7 +120,7 @@ const steps = [
             </p>
           </div>
         </div>
-        <div data-aos="fade-down" class="relative order-first col-span-12 md:col-span-6 md:order-last">
+        <div data-aos="fade-down" class="relative col-span-12 md:col-span-6">
           <iframe width="100%" 
             height="315" 
             src="https://www.youtube.com/embed/YpPHmjek9nk?si=fkxEM1rVOiR9YM0o" 
@@ -156,50 +130,60 @@ const steps = [
             allowfullscreen></iframe>
         </div>
       </BaseSection>
+      <img
+          data-aos="fade-up"
+          data-aos-delay="300"
+          src="@/assets/img/pattern/star.png"
+          class="absolute hidden w-6 sm:block bottom-12 xl:bottom-16 left-4 xl:left-16"
+        />
     </section>
 
-    <section id="ourNumbers" class="w-full shadow py-28 bg-partner md:rounded-2xl">
+    <section id="ourNumbers" class="relative w-full shadow my-14 py-14 md:py-20 md:my-20 bg-partner rounded-2xl">
       <BaseSection data-aos="fade-down">
-        <div class="col-span-12">
-          <div
-            class="flex flex-col items-center justify-center w-full px-6 space-y-4 text-center sm:px-0"
-          >
-            <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
-              Dmuchane zamki Kępno w <span class="text-header-gradient">liczbach</span>
-            </h3>
-            <p data-aos="flip-down" class="paragraph">
-              Dane aktualizowane na bierząco
-            </p>
+        <div
+          class="flex flex-col items-center justify-center w-full col-span-12 px-6 space-y-4 text-center sm:px-0"
+        >
+          <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
+            Dmuchane zamki Kępno w <span class="text-header-gradient">liczbach</span>
+          </h3>
+          <p data-aos="flip-down" class="!mt-6 paragraph">
+            Dane aktualizowane na bierząco
+          </p>
 
-            <div class="flex items-center justify-center w-full flex-row flex-wrap !mt-10 sm:gap-0 gap-5">
-              <LandingInNumber :finishValue="18" color="text-sky-400" class="border-l">
-                Lat doświadczenia
-              </LandingInNumber>
+          <div class="flex items-center justify-center w-full flex-row flex-wrap !mt-10 sm:gap-0">
+            <LandingInNumber :finishValue="18" color="text-sky-400" class="lg:border-l">
+              Lat doświadczenia
+            </LandingInNumber>
 
-              <LandingInNumber :finishValue="60" color="text-sky-400" :setPlus="true">
-                Zaliczone imprezy
-              </LandingInNumber>
+            <LandingInNumber :finishValue="60" color="text-sky-400" :setPlus="true">
+              Zaliczone imprezy
+            </LandingInNumber>
 
-              <LandingInNumber :finishValue="23" color="text-sky-400">
-                Dostępnych atrkacji
-              </LandingInNumber>
+            <LandingInNumber :finishValue="23" color="text-sky-400">
+              Dostępnych atrkacji
+            </LandingInNumber>
 
-              <LandingInNumber :finishValue="7" color="text-sky-400">
-                Dni dostępnych w tygodniu
-              </LandingInNumber>
+            <LandingInNumber :finishValue="7" color="text-sky-400">
+              Dni dostępnych w tygodniu
+            </LandingInNumber>
             </div>
           </div>
-        </div>
       </BaseSection>
+      <img
+          data-aos="fade-up"
+          data-aos-delay="300"
+          src="@/assets/img/pattern/ellipse-2.png"
+          class="absolute hidden w-6 sm:block bottom-12 xl:top-16 right-4 xl:right-1/4"
+        />
     </section>
 
 
     <!-- Crypto statistic section -->
 
     <!-- Buy and trade section -->
-    <section id="gallery" class="w-full mt-24 mb-12 sm:mb-24 sm:mt-48">
+    <section id="gallery" class="relative w-full py-14 md:py-20">
       <BaseSection>
-        <div class="flex justify-center col-span-12">
+        <div class="flex justify-center col-span-12 text-center">
           <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
             Nasza <span class="text-header-gradient">galeria</span> imprez i atrakcji
           </h3>
@@ -207,46 +191,50 @@ const steps = [
         <LandingTile
           data-aos="fade-up"
           title="🔥 Nowości"
-          class="col-span-12 md:col-span-4"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
         />
 
         <LandingTile
           data-aos="fade-up"
           data-aos-delay="100"
           title="🚀 Najszybsze"
-          class="col-span-12 md:col-span-4"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
         />
 
         <LandingTile
           data-aos="fade-up"
           data-aos-delay="200"
           title="💎 Najlepsze"
-          class="col-span-12 md:col-span-4"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
         />
 
         <LandingTile
           data-aos="fade-up"
           data-aos-delay="300"
           title="🧨 Okazje"
-          class="col-span-12 md:col-span-4"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
         />
       </BaseSection>
+      <img
+          data-aos="fade-up"
+          data-aos-delay="400"
+          src="@/assets/img/pattern/ellipse-2.png"
+          class="absolute hidden w-3 sm:block bottom-12 xl:top-2 xl:right-3/4"
+        />
     </section>
 
     <!-- class="max-w-screen-xl mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform !mt-48" -->
-    <section
-    class="w-full py-24 shadow bg-partner sm:rounded-2xl"
-    >
+    <section class="relative w-full shadow py-14 md:py-20 bg-partner rounded-2xl">
       <BaseSection class="p-1">
         <div class="flex justify-center col-span-12">
           <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
             Nasze <span class="text-header-gradient">gwarancje</span> dla ciebie
           </h3>
         </div>
-        <div class="flex flex-col items-center justify-center col-span-12 transform bg-white shadow-lg lg:flex-row sm:rounded-xl sm:shadow-md">
+        <div class="flex flex-wrap items-center justify-center col-span-12 transform bg-white shadow-lg lg:flex-row rounded-xl sm:shadow-md">
           <div 
             data-aos="fade-up"
-            class="w-full p-6 space-y-6 border-gray-200 lg:w-1/4 lg:mt-0 xl:border-r lg:p-8"
+            class="w-full p-6 space-y-6 border-gray-200 sm:w-1/2 md:w-1/4 lg:mt-0 xl:border-r lg:p-8"
           >
             <div class="flex flex-col items-center text-center">
               <EmoticonHappyOutlineIcon size="50"/>
@@ -257,7 +245,7 @@ const steps = [
           <div 
             data-aos="fade-up"
             data-aos-delay="150"
-            class="w-full p-6 space-y-6 border-gray-200 lg:w-1/4 lg:mt-0 xl:border-r lg:px-8"
+            class="w-full p-6 space-y-6 border-gray-200 sm:w-1/2 md:w-1/4 lg:mt-0 xl:border-r lg:px-8"
           >
             <div class="flex flex-col items-center text-center">
             <VectorLineIcon size="50"/>
@@ -268,7 +256,7 @@ const steps = [
           <div 
             data-aos="fade-up"
             data-aos-delay="300"
-            class="w-full p-6 border-gray-200 first:space-y-6 lg:w-1/4 lg:mt-0 xl:border-r lg:px-8"
+            class="w-full p-6 border-gray-200 first:space-y-6 sm:w-1/2 md:w-1/4 lg:mt-0 xl:border-r lg:px-8"
           >
             <div class="flex flex-col items-center text-center">
             <AccountFileTextOutlineIcon size="50"/>
@@ -279,7 +267,7 @@ const steps = [
           <div 
             data-aos="fade-up"
             data-aos-delay="450"
-            class="w-full p-6 space-y-6 border-gray-200 lg:w-1/4 lg:mt-0 lg:px-8"
+            class="w-full p-6 space-y-6 border-gray-200 sm:w-1/2 md:w-1/4 lg:mt-0 lg:px-8"
           >
             <div class="flex flex-col items-center text-center">
               <BookOpenBlankVariantOutlineIcon size="50"/>
@@ -288,12 +276,23 @@ const steps = [
           </div>
         </div>
       </BaseSection>
+      <img
+          data-aos="fade-up"
+          data-aos-delay="300"
+          src="@/assets/img/pattern/star.png"
+          class="absolute hidden w-6 sm:block xl:top-2 xl:right-3/4"
+        />
+        <img
+          data-aos="fade-up"
+          src="@/assets/img/pattern/star.png"
+          class="absolute hidden w-6 sm:block xl:top-9 xl:left-3/4"
+        />
     </section>
 
     <!-- Partners section -->
 
     <!-- FAQ section -->
-    <section id="faq" class="w-full my-24">
+    <section id="faq" class="w-full mt-14 py-14 md:py-20 md:mt-20">
       <BaseSection>
         <div class="flex justify-center col-span-12">
           <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
@@ -303,7 +302,7 @@ const steps = [
         <div
           data-aos="fade-left"
           data-aos-delay="150"
-          class="col-span-12 px-4 mt-8 sm:px-6"
+          class="col-span-12 px-4 sm:px-0"
         >
           <!-- <span class="mb-4 text-base font-semibold uppercase text-gradient sm:mb-2"
             >Support</span
@@ -326,88 +325,90 @@ const steps = [
     <!-- Credit card section -->
     <section
       id="theyTrustedUs"
-      class="relative max-w-full my-24 overflow-hidden shadow bg-partner sm:mx-6 sm:rounded-2xl"
+      class="relative max-w-full overflow-hidden shadow py-14 mb-14 md:py-20 md:mb-20 bg-partner rounded-2xl"
     >
-      <div
-        class="flex flex-col items-center justify-center w-full px-6 py-16 space-y-4 text-center sm:px-0"
-      >
-        <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
-          Już <span class="text-header-gradient">zaufali nam</span> przede wszyscy
-        </h3>
-        <p data-aos="flip-down" class="paragraph">
-          Co roku współpracujemy z:
-        </p>
-        <div data-aos="fade-up" class="flex flex-wrap items-center justify-center">
-          <LandingPartnerImage
-            v-for="img in [
-              'clever.png',
-              'diamon-cutts.png',
-              'swiss-finance.png',
-              'gambio.png',
-            ]"
-            :key="img"
-            :img="img"
-          />
+      <BaseSection>
+        <div
+          class="flex flex-col items-center justify-center w-full col-span-12 px-6 space-y-4 text-center sm:px-0"
+          >
+          <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
+            Już <span class="text-header-gradient">zaufali nam</span> przede wszyscy
+          </h3>
+          <p data-aos="flip-down" class="!mt-6 paragraph">
+            Co roku współpracujemy z:
+          </p>
+          <div data-aos="fade-up" class="flex flex-wrap items-center justify-center">
+            <LandingPartnerImage
+              v-for="img in [
+                'clever.png',
+                'diamon-cutts.png',
+                'swiss-finance.png',
+                'gambio.png',
+              ]"
+              :key="img"
+              :img="img"
+              class="sm:w-1/2 md:w-1/4"
+            />
+          </div>
         </div>
-        </div>
+      </BaseSection>
     </section>
 
     <!-- Advanced trading tools section -->
     <section
       id="contact"
-      class="relative max-w-full my-20 overflow-hidden sm:mx-4 rounded-2xl"
+      class="relative max-w-full overflow-hidden my-14 py-14 md:py-20 md:my-20 sm:mx-4 rounded-2xl"
     >
-      <div
-        class="relative grid max-w-screen-xl grid-cols-12 px-4 mx-auto sm:px-2 gap-x-6"
-      >
-        <div data-aos="fade-left" class="hidden col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6 sm:block">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155.69870778702514!2d18.02168113632166!3d51.36299996251659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471aa1c5c5a5fab9%3A0xdf94993d81c29288!2sMikorzyn!5e0!3m2!1spl!2spl!4v1709389835637!5m2!1spl!2spl" 
-          title="map with location" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+    <!-- relative grid flex-wrap-reverse max-w-screen-xl grid-cols-12 col-span-12 px-4 mx-auto sm:px-2 gap-x-6 md:flex-row -->
+      <BaseSection>
         <div
-          data-aos="fade-right"
-          class="col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6"
+          class="grid flex-wrap-reverse grid-cols-12 col-span-12 gap-x-6 md:flex-row"
         >
-          <h2 class="text-4xl font-semibold">
-            Skontaktuj się <span class="text-header-gradient">z nami</span>
-          </h2>
-          <div class="space-y-2">
-            <h4 class="text-lg font-medium">
-              Telefonicznie
-            </h4>
-            <p class="text-sm paragraph xl:text-base">
-              +12 234 456 789 <br/>
-              +12 234 456 789
-            </p>
+          <div data-aos="fade-left" class="col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155.69870778702514!2d18.02168113632166!3d51.36299996251659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471aa1c5c5a5fab9%3A0xdf94993d81c29288!2sMikorzyn!5e0!3m2!1spl!2spl!4v1709389835637!5m2!1spl!2spl" 
+            title="map with location" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <div class="space-y-2">
-            <h4 class="text-lg font-medium">Mailowo</h4>
-            <p class="text-sm paragraph xl:text-base">
-              adresemail@gmail.com
-            </p>
-          </div>
-          <div class="space-y-2">
-            <h4 class="text-lg font-medium">Jesteśmy dostępni pod adresem</h4>
-            <p class="text-sm paragraph xl:text-base">
-              Mikorzyn nr domu <br/>
-              63-600 Kępno
-            </p>
-          </div>
-          <div class="flex flex-col gap-2 sm:flex-row">
-            <a href="tel:+4733378901">
-              <BaseButton
-                class="px-10 py-4 bg-inherit text-gradient border border-[#4A8FF6] text-base"
-              >
-                Zadzwoń
-              </BaseButton>
-            </a>
+          <div
+            data-aos="fade-right"
+            class="col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6 row-span-full lg:row-span-6"
+          >
+            <h3 class="text-4xl font-semibold text-center sm:text-left">
+              Skontaktuj się <span class="text-header-gradient">z nami</span>
+            </h3>
+            <div class="space-y-2">
+              <h4 class="text-lg font-medium">
+                Telefonicznie
+              </h4>
+              <p class="text-sm paragraph xl:text-base">
+                +12 234 456 789 <br/>
+                +12 234 456 789
+              </p>
+            </div>
+            <div class="space-y-2">
+              <h4 class="text-lg font-medium">Mailowo</h4>
+              <p class="text-sm paragraph xl:text-base">
+                adresemail@gmail.com
+              </p>
+            </div>
+            <div class="space-y-2">
+              <h4 class="text-lg font-medium">Jesteśmy dostępni pod adresem</h4>
+              <p class="text-sm paragraph xl:text-base">
+                Mikorzyn nr domu <br/>
+                63-600 Kępno
+              </p>
+            </div>
+            <div class="flex flex-col gap-2 sm:flex-row">
+              <a href="tel:+4733378901">
+                <BaseButton
+                  class="px-10 py-4 bg-inherit text-gradient border border-[#4A8FF6] text-base"
+                >
+                  Zadzwoń
+                </BaseButton>
+              </a>
+            </div>
           </div>
         </div>
-        <div data-aos="fade-left" class="block col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6 sm:hidden">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155.69870778702514!2d18.02168113632166!3d51.36299996251659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471aa1c5c5a5fab9%3A0xdf94993d81c29288!2sMikorzyn!5e0!3m2!1spl!2spl!4v1709389835637!5m2!1spl!2spl" 
-          title="map with location" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
+      </BaseSection>
     </section>
 
     <!-- Industry-leading security section -->
@@ -482,7 +483,7 @@ const steps = [
       </div>
     </section> -->
 
-    <div class="flex justify-center w-full my-10">
+    <div class="flex justify-center w-full my-14">
       <a
         data-aos="flip-down"
         data-aos-delay="150"

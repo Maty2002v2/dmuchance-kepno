@@ -58,7 +58,7 @@ if (process.client) {
     ref="div"
     data-aos="fade-up"
     data-aos-delay="150"
-    class="w-full space-y-6 bg-white border-r border-gray-200 p-7 sm:w-1/2 md:w-1/4 lg:mt-0 lg:px-8"
+    class="w-full space-y-6 bg-white border border-gray-200 lg:border-0 lg:border-r p-7 sm:w-1/2 lg:w-1/4 lg:mt-0 lg:px-8 rounded-xl sm:rounded-none"
   >
     <div class="flex flex-col items-center text-center text-nowrap">
       <span ref="numberTile" :class="['text-4xl font-bold', color]"></span>

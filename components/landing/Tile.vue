@@ -16,7 +16,7 @@ const toggler = ref(false);
 </script>
 
 <template>
-  <div class="mt-6 overflow-hidden rounded lg:mt-0" v-bind="$attrs">
+  <div class="max-w-sm mx-auto mt-6 overflow-hidden rounded lg:mt-0" v-bind="$attrs">
     <div class="flex items-center justify-between w-full mb-5">
       <span class="font-medium">{{ title }}</span>
       <NuxtLink 
