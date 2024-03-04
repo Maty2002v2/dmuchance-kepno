@@ -2,6 +2,8 @@
 interface Props {
   title: string;
   buttonLabel: string;
+  pathPage: string;
+  pathPreview: string;
 }
 
 withDefaults(defineProps<Props>(), {
@@ -20,7 +22,7 @@ const toggler = ref(false);
     <div class="flex items-center justify-between w-full mb-5">
       <span class="font-medium">{{ title }}</span>
       <NuxtLink 
-        to="/gallery/new"
+        :to="pathPage"
         class="flex items-center px-3 py-1 space-x-1 text-sm font-medium text-blue-500 transition duration-300 rounded-md hover:bg-blue-50"
       >
         <span>{{ buttonLabel }}</span>
@@ -28,9 +30,9 @@ const toggler = ref(false);
       </NuxtLink>
     </div>
     <div class="flex flex-col cursor-zoom-in">
-      <NuxtImg src="/img/nowy-dmuchany-zamek.jpg" @click="toggler = toggler = !toggler" />
+      <NuxtImg :src="pathPreview" @click="toggler = toggler = !toggler" class="max-h-[280px]"/>
     </div>
   </div>
 
-  <FsLightbox :toggler="toggler" :sources="['/img/nowy-dmuchany-zamek.jpg']" />
+  <FsLightbox :toggler="toggler" :sources="[pathPreview]" />
 </template>

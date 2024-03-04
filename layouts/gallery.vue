@@ -32,7 +32,7 @@ const selectImage = (index: number) => {
               <h1
                 data-aos="fade-right"
                 data-aos-once="true"
-                class="text-[2.5rem] sm:text-5xl xl:text-6xl font-bold leading-tight capitalize sm:pr-8 xl:pr-10 col-span-12"
+                class="text-[2.5rem] sm:text-5xl xl:text-6xl font-bold leading-tight sm:pr-8 xl:pr-10 col-span-12"
               >
                 {{ layoutCustomProps.title }}
               </h1>

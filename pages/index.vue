@@ -190,18 +190,39 @@ const accordions = [
         </div>
         <LandingTile
           data-aos="fade-up"
-          title="🔥 Nowości"
+          title="Dmuchane zjeżdżalnie"
+          pathPreview="/img/gallery/duze-zjezdzalnie/dmuchana_zjeżdżalnia.jpeg"
+          pathPage="/galeria/duze-zjezdzalnie"
           class="col-span-12 sm:col-span-6 md:col-span-4"
         />
 
         <LandingTile
           data-aos="fade-up"
           data-aos-delay="100"
-          title="🚀 Najszybsze"
+          title="Baseny z kulkami"
+          pathPreview="/img/gallery/baseny/dmuchany basen z kulkami.jpeg"
+          pathPage="/galeria/baseny-z-kulkami"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
+        />
+
+        <!-- <LandingTile
+          data-aos="fade-up"
+          title="🔥 Dmuchane zjeżdżalnie"
+          pathPreview="/img/gallery/duze-zjezdzalnie/dmuchana_zjeżdżalnia.jpeg"
+          pathPage="/gallery"
           class="col-span-12 sm:col-span-6 md:col-span-4"
         />
 
         <LandingTile
+          data-aos="fade-up"
+          data-aos-delay="100"
+          title="🚀 Baseny z kulkami"
+          pathPreview="/img/gallery/basen/dmuchany basen z kulkami.jpeg"
+          pathPage="/gallery"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
+        /> -->
+
+        <!-- <LandingTile
           data-aos="fade-up"
           data-aos-delay="200"
           title="💎 Najlepsze"
@@ -213,7 +234,7 @@ const accordions = [
           data-aos-delay="300"
           title="🧨 Okazje"
           class="col-span-12 sm:col-span-6 md:col-span-4"
-        />
+        /> -->
       </BaseSection>
       <img
           data-aos="fade-up"
