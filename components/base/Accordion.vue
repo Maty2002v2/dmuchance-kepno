@@ -1,3 +1,14 @@
+<script lang="ts" setup>
+const start = el => (el.style.height = el.scrollHeight + 'px');
+const end = el => (el.style.height = '');
+
+defineProps<{
+  accordion: {}
+}>();
+
+const selected = ref(false);
+</script>
+
 <template>
   <li class="relative border-b-2 border-gray-200">
     <button type="button" class="w-full py-4 text-left" @click="selected = !selected">
@@ -8,10 +19,16 @@
       </div>
     </button>
 
-    <transition name="slide">
+    <transition
+      name="accordion"
+      @enter="start"
+      @after-enter="end"
+      @before-leave="start"
+      @after-leave="end"
+    >
       <div v-if="selected" class="relative overflow-hidden transition-all duration-700" style="">
         <div class="py-2">
-          <p class="text-sm text-gray-700 tracking-wide leading-relaxed">
+          <p class="text-sm leading-relaxed tracking-wide text-gray-700">
             {{ accordion.description }}
           </p>
         </div>
@@ -19,19 +36,19 @@
     </transition>
   </li>
 </template>
-<script>
-export default {
-  name: 'BaseAccordion',
-  props: {
-    accordion: {
-      type: Object,
-      required: true,
-    },
-  },
-  data() {
-    return {
-      selected: false,
-    }
-  },
+
+<style>
+.accordion-enter-active,
+.accordion-leave-active {
+  transition: all 0.3s ease;
+  overflow: hidden;
 }
-</script>
+
+.accordion-enter-from,
+.accordion-leave-to {
+  height: 0px !important;
+  opacity: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+</style>
