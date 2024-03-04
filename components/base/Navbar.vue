@@ -8,7 +8,7 @@ const showOptions = computed(() => open.value || !isMobile?.value);
 <template>
   <nav id="navbar" class="relative z-10 w-full text-neutral-800">
     <div class="flex flex-col max-w-screen-xl px-8 py-4 mx-auto lg:items-center lg:justify-between lg:flex-row">
-      <div class="flex flex-col items-center space-x-4 lg:flex-row xl:space-x-8">
+      <div class="flex flex-col items-center justify-center w-full space-x-4 lg:flex-row xl:space-x-8">
         <div class="flex flex-row items-center justify-between w-full py-6">
           <div>
             <img src="@/assets/img/logo/logo.svg" class="w-24 xl:w-28" alt="Dmuchńce Kępno Logo" />
