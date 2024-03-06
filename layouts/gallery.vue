@@ -20,7 +20,7 @@ const selectImage = (index: number) => {
 
       <main class="z-10 text-neutral-800">
         <div class="w-full">
-          <header class="mt-12 mb-24">
+          <header class="mt-12 mb-16">
             <BaseSection>
               <NuxtLink
                 to="/"
@@ -32,7 +32,7 @@ const selectImage = (index: number) => {
               <h1
                 data-aos="fade-right"
                 data-aos-once="true"
-                class="text-[2.5rem] sm:text-5xl xl:text-6xl font-bold leading-tight sm:pr-8 xl:pr-10 col-span-12"
+                class="text-[2.5rem] sm:text-3xl xl:text-4xl font-bold leading-tight sm:pr-8 xl:pr-10 col-span-12"
               >
                 {{ layoutCustomProps.title }}
               </h1>
@@ -45,7 +45,7 @@ const selectImage = (index: number) => {
                 :key="index"
                 class="col-span-12 md:col-span-3 sm:col-span-4 cursor-zoom-in"
               >
-                <NuxtImg :src="imagePath" @click="selectImage(index + 1)" />
+                <NuxtImg :src="imagePath" @click="selectImage(index + 1)"/>
               </div>
             </BaseSection>
           </section>

@@ -71,37 +71,37 @@ const accordions = [
         </div>
         <div class="hidden col-span-12 sm:flex lg:col-span-6">
           <div class="w-full">
-            <img
+            <NuxtImg
               data-aos="fade-up"
               data-aos-once="true"
-              src="@/assets/img/header-image-f.png"
+              src="/img/header-image.png"
               class="-mt-4"
               alt=""
             />
           </div>
         </div>
-        <img
+        <NuxtImg
           data-aos="fade-up"
           data-aos-delay="300"
-          src="@/assets/img/pattern/ellipse-1.png"
+          src="/img/pattern/ellipse-1.png"
           class="absolute hidden w-6 sm:block bottom-12 xl:bottom-16 left-4 xl:left-0"
         />
-        <img
+        <NuxtImg
           data-aos="fade-up"
           data-aos-delay="300"
-          src="@/assets/img/pattern/ellipse-2.png"
+          src="/img/pattern/ellipse-2.png"
           class="hidden sm:block absolute top-4 sm:top-10 right-64 sm:right-96 xl:right-[32rem] w-6"
         />
-        <img
+        <NuxtImg
           data-aos="fade-up"
           data-aos-delay="300"
-          src="@/assets/img/pattern/ellipse-3.png"
+          src="/img/pattern/ellipse-3.png"
           class="absolute hidden w-6 sm:block bottom-56 right-24"
         />
-        <img
+        <NuxtImg
           data-aos="fade-up"
           data-aos-delay="300"
-          src="@/assets/img/pattern/star.png"
+          src="/img/pattern/star.png"
           class="hidden sm:block absolute top-20 sm:top-28 right-16 lg:right-0 lg:left-[30rem] w-8"
         />
       </BaseSection>
@@ -133,10 +133,10 @@ const accordions = [
             allowfullscreen></iframe>
         </div>
       </BaseSection>
-      <img
+      <NuxtImg
           data-aos="fade-up"
           data-aos-delay="300"
-          src="@/assets/img/pattern/star.png"
+          src="/img/pattern/star.png"
           class="absolute hidden w-6 sm:block bottom-12 xl:bottom-16 left-4 xl:left-16"
         />
     </section>
@@ -153,7 +153,7 @@ const accordions = [
             Dane aktualizowane na bierząco
           </p>
 
-          <div class="flex items-center justify-center w-full flex-row flex-wrap !mt-10 sm:gap-0">
+          <div class="flex items-center justify-center w-full flex-row flex-wrap !mt-10 sm:gap-0 gap-2">
             <LandingInNumber :finishValue="18" color="text-sky-400" class="lg:border-l">
               Lat doświadczenia
             </LandingInNumber>
@@ -172,10 +172,10 @@ const accordions = [
             </div>
           </div>
       </BaseSection>
-      <img
+      <NuxtImg
           data-aos="fade-up"
           data-aos-delay="300"
-          src="@/assets/img/pattern/ellipse-2.png"
+          src="/img/pattern/ellipse-2.png"
           class="absolute hidden w-6 sm:block bottom-12 xl:top-16 right-4 xl:right-1/4"
         />
     </section>
@@ -239,10 +239,10 @@ const accordions = [
           class="col-span-12 sm:col-span-6 md:col-span-4"
         /> -->
       </BaseSection>
-      <img
+      <NuxtImg
           data-aos="fade-up"
           data-aos-delay="400"
-          src="@/assets/img/pattern/ellipse-2.png"
+          src="/img/pattern/ellipse-2.png"
           class="absolute hidden w-3 sm:block bottom-12 xl:top-2 xl:right-3/4"
         />
     </section>
@@ -300,15 +300,15 @@ const accordions = [
           </div>
         </div>
       </BaseSection>
-      <img
+      <NuxtImg
           data-aos="fade-up"
           data-aos-delay="300"
-          src="@/assets/img/pattern/star.png"
+          src="/img/pattern/star.png"
           class="absolute hidden w-6 sm:block xl:top-2 xl:right-3/4"
         />
-        <img
+        <NuxtImg
           data-aos="fade-up"
-          src="@/assets/img/pattern/star.png"
+          src="/img/pattern/star.png"
           class="absolute hidden w-6 sm:block xl:top-9 xl:left-3/4"
         />
     </section>
@@ -362,7 +362,7 @@ const accordions = [
             Co roku współpracujemy z:
           </p>
           <div data-aos="fade-up" class="flex flex-wrap items-center justify-center">
-            <LandingPartnerImage
+            <NuxtImg
               v-for="img in [
                 'clever.png',
                 'diamon-cutts.png',
@@ -370,8 +370,8 @@ const accordions = [
                 'gambio.png',
               ]"
               :key="img"
-              :img="img"
-              class="sm:w-1/2 md:w-1/4"
+              :src="`/img/partner/${img}`"
+              class="mx-auto sm:w-1/2 md:w-1/4 lg:w-72"
             />
           </div>
         </div>

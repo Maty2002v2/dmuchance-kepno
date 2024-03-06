@@ -12,7 +12,7 @@ const showOptions = computed(() => open.value || !isMobile?.value);
         <div class="flex flex-row items-center justify-between w-full py-6">
           <div>
             <a href="/">
-              <img src="@/assets/img/logo/logo.svg" class="w-24 xl:w-28" alt="Dmuchńce Kępno Logo" />
+              <NuxtImg src="/img/logo/dmuchance-kepno.svg" class="w-24 xl:w-28" alt="Dmuchńce Kępno Logo" />
             </a>
           </div>
           <button class="rounded-lg lg:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
