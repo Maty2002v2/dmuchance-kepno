@@ -24,6 +24,9 @@ const accordions = [
 </script>
 
 <template>
+  <Head>
+    <Meta name="google-site-verification" content="1n6cdlJm4jj_sHUSuerBBg6ZL1xjaetLsxP_voC7YQ8" />
+  </Head>
   <div class="w-full overflow-hidden">
     <!-- Hero section -->
     <section id="hero" class="w-full pb-10 md:pb-20">
