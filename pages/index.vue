@@ -25,6 +25,7 @@ const accordions = [
 
 <template>
   <Head>
+    <Title>Dmuchane zamki - dmuchańce - baseny z kulkami - Kępno</Title>
     <Meta name="google-site-verification" content="1n6cdlJm4jj_sHUSuerBBg6ZL1xjaetLsxP_voC7YQ8" />
   </Head>
   <div class="w-full overflow-hidden">
