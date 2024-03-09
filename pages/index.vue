@@ -80,6 +80,8 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
               data-aos-once="true"
               src="/img/header-image.png"
               alt="Obrazek zamku dmuchanego"
+              width="100%"
+              height="100%"
               class="-mt-4"
             />
           </div>
