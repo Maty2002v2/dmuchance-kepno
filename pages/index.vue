@@ -21,12 +21,15 @@ const accordions = [
       "Jasne że wezimniemy na siebie obowiązek dostarczenia, przygotowania i czuwania nad atrakcjami. Chyba że na prośbę mamy tyko przyjechać, rozłożyć i umówionego dnia przyjechać i posprzątać.",
   },
 ];
+
+const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i dorosłych w Kępnie. Zapewniamy jakościowe usługi, atrakcyjne ceny i dostępność 7 dni w tygodniu. Skorzystaj z prostego kontaktu i wejdź w naszą galerię. Idealne dla urzędów, przedszkoli, imprez prywatnych. Odkryj niskie ceny i gwarancje jakości już teraz!";
 </script>
 
 <template>
   <Head>
     <Title>Dmuchane zamki - dmuchańce - baseny z kulkami - Kępno</Title>
     <Meta name="google-site-verification" content="1n6cdlJm4jj_sHUSuerBBg6ZL1xjaetLsxP_voC7YQ8" />
+    <Meta name="description" :content="metaDesc" />
   </Head>
   <div class="w-full overflow-hidden">
     <!-- Hero section -->
