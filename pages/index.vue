@@ -118,9 +118,9 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
     <section id="aboutUs" class="relative w-full my-14 md:my-20">
       <BaseSection>
         <div class="flex justify-center w-full col-span-12">
-          <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
+          <h2 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
             Trochę <span class="text-header-gradient">o nas</span>
-          </h3>
+          </h2>
         </div>
         <div data-aos="fade-up" class="relative col-span-12 md:col-span-6">
           <div class="space-y-2">
@@ -155,9 +155,9 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
         <div
           class="flex flex-col items-center justify-center w-full col-span-12 px-6 space-y-4 text-center sm:px-0"
         >
-          <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
+          <h2 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
             Dmuchane zamki Kępno w <span class="text-header-gradient">liczbach</span>
-          </h3>
+          </h2>
           <p data-aos="flip-down" class="!mt-6 paragraph">
             Dane aktualizowane na bierząco
           </p>
@@ -197,9 +197,9 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
     <section id="gallery" class="relative w-full py-14 md:py-20">
       <BaseSection>
         <div class="flex justify-center col-span-12 text-center">
-          <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
+          <h2 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
             Nasza <span class="text-header-gradient">galeria</span> imprez i atrakcji
-          </h3>
+          </h2>
         </div>
         <LandingTile
           data-aos="fade-up"
@@ -264,9 +264,9 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
     <section class="relative w-full shadow py-14 md:py-20 bg-partner rounded-2xl">
       <BaseSection class="p-1">
         <div class="flex justify-center col-span-12">
-          <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
+          <h2 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
             Nasze <span class="text-header-gradient">gwarancje</span> dla ciebie
-          </h3>
+          </h2>
         </div>
         <div class="flex flex-wrap items-center justify-center col-span-12 transform bg-white shadow-lg lg:flex-row rounded-xl sm:shadow-md">
           <div 
@@ -334,9 +334,9 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
     <section id="faq" class="w-full mt-14 py-14 md:py-20 md:mt-20">
       <BaseSection>
         <div class="flex justify-center col-span-12">
-          <h3 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
+          <h2 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
             Najczęstrze <span class="text-header-gradient">pytania</span>
-          </h3>
+          </h2>
         </div>
         <div
           data-aos="fade-left"
@@ -370,9 +370,9 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
         <div
           class="flex flex-col items-center justify-center w-full col-span-12 px-6 space-y-4 text-center sm:px-0"
           >
-          <h3 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
+          <h2 data-aos="flip-down" class="text-2xl font-semibold text-neutral-800">
             Już <span class="text-header-gradient">zaufali nam</span> przede wszyscy
-          </h3>
+          </h2>
           <p data-aos="flip-down" class="!mt-6 paragraph">
             Co roku współpracujemy z:
           </p>
@@ -412,9 +412,9 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
             data-aos="fade-right"
             class="col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6 row-span-full lg:row-span-6"
           >
-            <h3 class="text-4xl font-semibold text-center sm:text-left">
+            <h2 class="text-4xl font-semibold text-center sm:text-left">
               Skontaktuj się <span class="text-header-gradient">z nami</span>
-            </h3>
+            </h2>
             <div class="space-y-2">
               <h4 class="text-lg font-medium">
                 Telefonicznie
