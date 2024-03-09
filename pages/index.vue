@@ -131,14 +131,12 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
             </p>
           </div>
         </div>
-        <div data-aos="fade-down" class="relative col-span-12 md:col-span-6">
-          <iframe width="100%" 
-            height="315" 
-            src="https://www.youtube.com/embed/J7UX0Zi4ATA?si=SUZqY28iV7sTCmSq" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen></iframe>
+        <div data-aos="fade-down" class="relative col-span-12 md:col-span-6 h-[315px]">
+          <BaseYoutubeVideo
+            imageUrl="/img/gallery/duze-zjezdzalnie/dmuchana_zjeżdżalnia.jpeg",
+            videoId="J7UX0Zi4ATA"
+            altText="Film z drona pokazującydmuchane zjeżdżalnie"
+          />
         </div>
       </BaseSection>
       <NuxtImg
