@@ -45,7 +45,7 @@ const selectImage = (index: number) => {
                 :key="index"
                 class="col-span-12 md:col-span-3 sm:col-span-4 cursor-zoom-in"
               >
-                <NuxtImg :src="imagePath" @click="selectImage(index + 1)"/>
+                <NuxtImg :src="imagePath" @click="selectImage(index + 1)" :alt="layoutCustomProps.title"/>
               </div>
             </BaseSection>
           </section>

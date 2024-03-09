@@ -79,8 +79,8 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
               data-aos="fade-up"
               data-aos-once="true"
               src="/img/header-image.png"
+              alt="Obrazek zamku dmuchanego"
               class="-mt-4"
-              alt=""
             />
           </div>
         </div>
@@ -88,24 +88,28 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
           data-aos="fade-up"
           data-aos-delay="300"
           src="/img/pattern/ellipse-1.png"
+          alt="Ikona kulki"
           class="absolute hidden w-6 sm:block bottom-12 xl:bottom-16 left-4 xl:left-0"
         />
         <NuxtImg
           data-aos="fade-up"
           data-aos-delay="300"
           src="/img/pattern/ellipse-2.png"
+          alt="Ikona kulki"
           class="hidden sm:block absolute top-4 sm:top-10 right-64 sm:right-96 xl:right-[32rem] w-6"
         />
         <NuxtImg
           data-aos="fade-up"
           data-aos-delay="300"
           src="/img/pattern/ellipse-3.png"
+          alt="Ikona kulki"
           class="absolute hidden w-6 sm:block bottom-56 right-24"
         />
         <NuxtImg
           data-aos="fade-up"
           data-aos-delay="300"
           src="/img/pattern/star.png"
+          alt="Ikona gwiazdki"
           class="hidden sm:block absolute top-20 sm:top-28 right-16 lg:right-0 lg:left-[30rem] w-8"
         />
       </BaseSection>
@@ -141,6 +145,7 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
           data-aos="fade-up"
           data-aos-delay="300"
           src="/img/pattern/star.png"
+          alt="Ikona gwiazdki"
           class="absolute hidden w-6 sm:block bottom-12 xl:bottom-16 left-4 xl:left-16"
         />
     </section>
@@ -180,6 +185,7 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
           data-aos="fade-up"
           data-aos-delay="300"
           src="/img/pattern/ellipse-2.png"
+          alt="Ikona kulki"
           class="absolute hidden w-6 sm:block bottom-12 xl:top-16 right-4 xl:right-1/4"
         />
     </section>
@@ -198,6 +204,7 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
         <LandingTile
           data-aos="fade-up"
           title="Dmuchane zjeżdżalnie"
+          alt="Zdjęie zmuchanej zjeżdżalni"
           pathPreview="/img/gallery/duze-zjezdzalnie/dmuchana_zjeżdżalnia.jpeg"
           pathPage="/galeria/duze-zjezdzalnie"
           class="col-span-12 sm:col-span-6 md:col-span-4"
@@ -207,6 +214,7 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
           data-aos="fade-up"
           data-aos-delay="100"
           title="Baseny z kulkami"
+          alt="Zdjęie basenu z kulkami"
           pathPreview="/img/gallery/baseny/basen z kulkami.jpeg"
           pathPage="/galeria/baseny-z-kulkami"
           class="col-span-12 sm:col-span-6 md:col-span-4"
@@ -247,6 +255,7 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
           data-aos="fade-up"
           data-aos-delay="400"
           src="/img/pattern/ellipse-2.png"
+          alt="Ikona kulki"
           class="absolute hidden w-3 sm:block bottom-12 xl:top-2 xl:right-3/4"
         />
     </section>
@@ -308,11 +317,13 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
           data-aos="fade-up"
           data-aos-delay="300"
           src="/img/pattern/star.png"
+          alt="Ikona gwiazdki"
           class="absolute hidden w-6 sm:block xl:top-2 xl:right-3/4"
         />
         <NuxtImg
           data-aos="fade-up"
           src="/img/pattern/star.png"
+          alt="Ikona gwiazdki"
           class="absolute hidden w-6 sm:block xl:top-9 xl:left-3/4"
         />
     </section>
@@ -375,6 +386,7 @@ const metaDesc = "Wynajmuj dmuchane zamki, zjeżdżalnie i atrakcje dla dzieci i
               ]"
               :key="img"
               :src="`/img/partner/${img}`"
+              alt="Obrazek z logo partnera"
               class="mx-auto sm:w-1/2 md:w-1/4 lg:w-72"
             />
           </div>

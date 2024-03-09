@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 interface Props {
   title: string;
+  alt: string;
   buttonLabel: string;
   pathPage: string;
   pathPreview: string;
@@ -30,7 +31,7 @@ const toggler = ref(false);
       </NuxtLink>
     </div>
     <div class="flex flex-col cursor-zoom-in">
-      <NuxtImg :src="pathPreview" @click="toggler = toggler = !toggler" class="max-h-[280px]"/>
+      <NuxtImg :src="pathPreview" @click="toggler = toggler = !toggler" class="max-h-[280px]" :alt="alt"/>
     </div>
   </div>
 
