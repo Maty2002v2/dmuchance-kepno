@@ -35,7 +35,7 @@
         <div
           class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
         >
-          <h5 class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Kontakt</h5>
+          <p class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Kontakt</p>
           <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <PhoneIcon />
             +47 333 789 011
@@ -52,7 +52,7 @@
         <div
           class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
         >
-          <h5 class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Sociale</h5>
+          <p class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Sociale</p>
           <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <FacebookIcon />
             Facebook
