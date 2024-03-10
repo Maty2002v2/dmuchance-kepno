@@ -149,6 +149,7 @@ const accordions = [
           alt="Ikona gwiazdki"
           width="24"
           height="24"
+          loading="lazy"
           class="absolute hidden w-6 sm:block bottom-12 xl:bottom-16 left-4 xl:left-16"
         />
     </section>
@@ -191,6 +192,7 @@ const accordions = [
           alt="Ikona kulki"
           width="24"
           height="24"
+          loading="lazy"
           class="absolute hidden w-6 sm:block bottom-12 xl:top-16 right-4 xl:right-1/4"
         />
     </section>
@@ -263,6 +265,7 @@ const accordions = [
           alt="Ikona kulki"
           width="12"
           height="12"
+          loading="lazy"
           class="absolute hidden w-3 sm:block bottom-12 xl:top-2 xl:right-3/4"
         />
     </section>
@@ -327,6 +330,7 @@ const accordions = [
           alt="Ikona gwiazdki"
           width="24"
           height="24"
+          loading="lazy"
           class="absolute hidden w-6 sm:block xl:top-2 xl:right-3/4"
         />
         <NuxtImg
@@ -335,6 +339,7 @@ const accordions = [
           alt="Ikona gwiazdki"
           width="24"
           height="24"
+          loading="lazy"
           class="absolute hidden w-6 sm:block xl:top-9 xl:left-3/4"
         />
     </section>
@@ -400,6 +405,7 @@ const accordions = [
               alt="Obrazek z logo partnera"
               width="288"
               height="139"
+              loading="lazy"
               class="mx-auto sm:w-1/2 md:w-1/4 lg:w-72"
             />
           </div>
@@ -419,7 +425,7 @@ const accordions = [
         >
           <div data-aos="fade-left" class="col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155.69870778702514!2d18.02168113632166!3d51.36299996251659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471aa1c5c5a5fab9%3A0xdf94993d81c29288!2sMikorzyn!5e0!3m2!1spl!2spl!4v1709389835637!5m2!1spl!2spl" 
-            title="map with location" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            title="map with location" width="100%" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div
             data-aos="fade-right"
@@ -429,22 +435,22 @@ const accordions = [
               Skontaktuj się <span class="text-header-gradient">z nami</span>
             </h2>
             <div class="space-y-2">
-              <h4 class="text-lg font-medium">
+              <h3 class="text-lg font-medium">
                 Telefonicznie
-              </h4>
+              </h3>
               <p class="text-sm paragraph xl:text-base">
                 +12 234 456 789 <br/>
                 +12 234 456 789
               </p>
             </div>
             <div class="space-y-2">
-              <h4 class="text-lg font-medium">Mailowo</h4>
+              <h3 class="text-lg font-medium">Mailowo</h3>
               <p class="text-sm paragraph xl:text-base">
                 adresemail@gmail.com
               </p>
             </div>
             <div class="space-y-2">
-              <h4 class="text-lg font-medium">Jesteśmy dostępni pod adresem</h4>
+              <h3 class="text-lg font-medium">Jesteśmy dostępni pod adresem</h3>
               <p class="text-sm paragraph xl:text-base">
                 Mikorzyn nr domu <br/>
                 63-600 Kępno
