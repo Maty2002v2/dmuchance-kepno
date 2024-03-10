@@ -8,7 +8,7 @@ const selected = ref(false);
 
 <template>
   <li class="relative border-b-2 border-gray-200">
-    <button type="button" class="w-full py-4 text-left" @click="selected = !selected">
+    <button type="button" class="w-full py-4 text-left" aria-label="open question answer" @click="selected = !selected">
       <div class="flex items-center justify-between">
         <span class="font-medium">{{ accordion.title }}</span>
         <ChevronUpIcon v-if="selected" :size="20" />

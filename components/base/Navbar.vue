@@ -21,7 +21,7 @@ const showOptions = computed(() => open.value || !isMobile?.value);
               />
             </NuxtLink>
           </div>
-          <button class="rounded-lg lg:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
+          <button class="rounded-lg lg:hidden focus:outline-none focus:shadow-outline" aria-label="open menu" @click="open = !open">
             <SegmentIcon v-if="!open" :size="24" />
             <CloseIcon v-else :size="24" />
           </button>
