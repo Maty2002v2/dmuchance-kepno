@@ -11,9 +11,15 @@ const showOptions = computed(() => open.value || !isMobile?.value);
       <div class="flex flex-col items-center justify-center w-full space-x-4 lg:flex-row xl:space-x-8">
         <div class="flex flex-row items-center justify-between w-full py-6">
           <div>
-            <a href="/">
-              <NuxtImg src="/img/logo/dmuchance-kepno.svg" class="w-24 xl:w-28" alt="Dmuchńce Kępno Logo" />
-            </a>
+            <NuxtLink to="/">
+              <NuxtImg 
+                src="/img/logo/dmuchance-kepno.svg" 
+                alt="Dmuchńce Kępno Logo"
+                width="112"
+                height="83" 
+                class="w-24 xl:w-28" 
+              />
+            </NuxtLink>
           </div>
           <button class="rounded-lg lg:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
             <SegmentIcon v-if="!open" :size="24" />

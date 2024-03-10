@@ -43,9 +43,15 @@ const selectImage = (index: number) => {
               <div
                 v-for="(imagePath, index) in layoutCustomProps.paths"
                 :key="index"
-                class="col-span-12 md:col-span-3 sm:col-span-4 cursor-zoom-in"
+                class="col-span-12 mx-auto md:col-span-3 sm:col-span-4 cursor-zoom-in"
               >
-                <NuxtImg :src="imagePath" @click="selectImage(index + 1)" :alt="layoutCustomProps.title"/>
+                <NuxtImg 
+                  :src="imagePath" 
+                  :alt="layoutCustomProps.title"
+                  width="373"
+                  height="280"
+                  @click="selectImage(index + 1)" 
+                />
               </div>
             </BaseSection>
           </section>

@@ -7,7 +7,13 @@
         >
           <div class="items-center mb-6 sm:hidden xl:flex sm:mb-0">
             <a href="#">
-              <NuxtImg src="/img/logo/dmuchance-kepno.svg" class="w-24 -mt-2" alt="Dmuchane Zamki Kępno Logo" />
+              <NuxtImg 
+                src="/img/logo/dmuchance-kepno.svg" 
+                alt="Dmuchane Zamki Kępno Logo"
+                width="96"
+                height="71"
+                class="w-24 -mt-2" 
+              />
             </a>
           </div>
           <ul class="space-y-4">
