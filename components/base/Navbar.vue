@@ -2,7 +2,12 @@
 const { isMobile } = useWindoWidth();
 
 const open = ref(false);
-const showOptions = computed(() => open.value || !isMobile?.value);
+const showOptions = computed(() => (open.value || !isMobile?.value) && isMounted.value);
+
+const isMounted = ref(false);
+onMounted(() => {
+  isMounted.value = true;
+})
 </script>
 
 <template>
