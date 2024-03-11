@@ -424,7 +424,7 @@ const accordions = [
           class="grid flex-wrap-reverse grid-cols-12 col-span-12 gap-x-6 md:flex-row"
         >
           <div data-aos="fade-left" class="col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d834.0464009556224!2d18.021717251218707!3d51.36341081329855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d51.363081099999995!2d18.021490999999997!4m5!1s0x471aa1c5c5a5fab9%3A0xdf94993d81c29288!2sMikorzyn!3m2!1d51.3594776!2d18.029663!5e0!3m2!1spl!2spl!4v1710187150459!5m2!1spl!2spl" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1236.806624654587!2d18.0214887244079!3d51.36264295380441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e0!4m0!4m0!5e0!3m2!1spl!2spl!4v1710187403072!5m2!1spl!2spl"
             title="map with location" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div
