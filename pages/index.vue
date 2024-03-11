@@ -425,7 +425,7 @@ const accordions = [
         >
           <div data-aos="fade-left" class="col-span-12 px-4 mt-8 space-y-8 lg:col-span-6 sm:space-y-6 sm:px-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1236.806624654587!2d18.0214887244079!3d51.36264295380441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e0!4m0!4m0!5e0!3m2!1spl!2spl!4v1710187403072!5m2!1spl!2spl"
-            title="map with location" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            title="map with location" width="100%" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div
             data-aos="fade-right"
