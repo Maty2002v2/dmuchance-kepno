@@ -59,7 +59,7 @@ const accordions = [
             class="flex flex-col mt-2 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4"
           >
           <a href="tel:+4733378901" class="mx-auto sm:mx-0">
-            <BaseButton class="flex items-center gap-3 px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">
+            <BaseButton ariaLabel="Call us" class="flex items-center gap-3 px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">
               <PhoneIcon />
               +47 333 789 011
             </BaseButton>
@@ -154,6 +154,7 @@ const accordions = [
         />
     </section>
 
+    <!-- We in numbers -->
     <section id="ourNumbers" class="relative w-full shadow my-14 py-14 md:py-20 md:my-20 bg-partner rounded-2xl">
       <BaseSection data-aos="fade-down">
         <div
@@ -197,10 +198,7 @@ const accordions = [
         />
     </section>
 
-
-    <!-- Crypto statistic section -->
-
-    <!-- Buy and trade section -->
+    <!-- Section with the gallery -->
     <section id="gallery" class="relative w-full py-14 md:py-20">
       <BaseSection>
         <div class="flex justify-center col-span-12 text-center">
@@ -226,37 +224,7 @@ const accordions = [
           pathPage="/galeria/baseny-z-kulkami"
           class="col-span-12 sm:col-span-6 md:col-span-4"
         />
-
-        <!-- <LandingTile
-          data-aos="fade-up"
-          title="🔥 Dmuchane zjeżdżalnie"
-          pathPreview="/img/gallery/duze-zjezdzalnie/dmuchana_zjeżdżalnia.jpeg"
-          pathPage="/gallery"
-          class="col-span-12 sm:col-span-6 md:col-span-4"
-        />
-
-        <LandingTile
-          data-aos="fade-up"
-          data-aos-delay="100"
-          title="🚀 Baseny z kulkami"
-          pathPreview="/img/gallery/basen/dmuchany basen z kulkami.jpeg"
-          pathPage="/gallery"
-          class="col-span-12 sm:col-span-6 md:col-span-4"
-        /> -->
-
-        <!-- <LandingTile
-          data-aos="fade-up"
-          data-aos-delay="200"
-          title="💎 Najlepsze"
-          class="col-span-12 sm:col-span-6 md:col-span-4"
-        />
-
-        <LandingTile
-          data-aos="fade-up"
-          data-aos-delay="300"
-          title="🧨 Okazje"
-          class="col-span-12 sm:col-span-6 md:col-span-4"
-        /> -->
+        
       </BaseSection>
       <NuxtImg
           data-aos="fade-up"
@@ -270,7 +238,7 @@ const accordions = [
         />
     </section>
 
-    <!-- class="max-w-screen-xl mx-2 sm:mx-auto px-4 sm:px-6 lg:px-0 py-6 pb-20 sm:py-8 rounded-[2.25rem] sm:rounded-xl bg-white shadow-lg sm:shadow-md transform !mt-48" -->
+    <!-- Warranty section -->
     <section class="relative w-full shadow py-14 md:py-20 bg-partner rounded-2xl">
       <BaseSection class="p-1">
         <div class="flex justify-center col-span-12">
@@ -344,8 +312,6 @@ const accordions = [
         />
     </section>
 
-    <!-- Partners section -->
-
     <!-- FAQ section -->
     <section id="faq" class="w-full mt-14 py-14 md:py-20 md:mt-20">
       <BaseSection>
@@ -359,12 +325,6 @@ const accordions = [
           data-aos-delay="150"
           class="col-span-12 px-4 sm:px-0"
         >
-          <!-- <span class="mb-4 text-base font-semibold uppercase text-gradient sm:mb-2"
-            >Support</span
-          >
-          <h2 class="mb-10 text-3xl font-semibold sm:text-4xl sm:mb-6">
-            Frequently asked questions
-          </h2> -->
 
           <ul class="shadow-box">
             <BaseAccordion
@@ -377,7 +337,7 @@ const accordions = [
       </BaseSection>
     </section>
 
-    <!-- Credit card section -->
+    <!-- Trust section -->
     <section
       id="theyTrustedUs"
       class="relative max-w-full overflow-hidden shadow py-14 mb-14 md:py-20 md:mb-20 bg-partner rounded-2xl"
@@ -413,12 +373,11 @@ const accordions = [
       </BaseSection>
     </section>
 
-    <!-- Advanced trading tools section -->
+    <!-- Contact section -->
     <section
       id="contact"
       class="relative max-w-full overflow-hidden my-14 py-14 md:py-20 md:my-20 sm:mx-4 rounded-2xl"
     >
-    <!-- relative grid flex-wrap-reverse max-w-screen-xl grid-cols-12 col-span-12 px-4 mx-auto sm:px-2 gap-x-6 md:flex-row -->
       <BaseSection>
         <div
           class="grid flex-wrap-reverse grid-cols-12 col-span-12 gap-x-6 md:flex-row"
@@ -459,6 +418,7 @@ const accordions = [
             <div class="flex flex-col gap-2 sm:flex-row">
               <a href="tel:+4733378901">
                 <BaseButton
+                  ariaLabel="Call us"
                   class="px-10 py-4 bg-inherit text-gradient border border-[#4A8FF6] text-base"
                 >
                   Zadzwoń
@@ -469,78 +429,6 @@ const accordions = [
         </div>
       </BaseSection>
     </section>
-
-    <!-- Industry-leading security section -->
-    <!-- <section class="w-full my-24">
-      <div class="relative grid max-w-screen-xl grid-cols-12 px-8 mx-auto gap-x-6">
-        <div data-aos="fade-right" class="col-span-12 lg:col-span-6">
-          <div class="w-full">
-            <img
-              src="@/assets/img/industry-leading-security.webp"
-              class="w-full"
-              alt=""
-            />
-          </div>
-        </div>
-        <div
-          data-aos="fade-left"
-          class="col-span-12 mt-8 space-y-8 lg:col-span-5 sm:space-y-6 xl:px-8"
-        >
-          <h2 class="text-4xl font-semibold">Industry-leading security from day one</h2>
-          <ul class="space-y-8 sm:space-y-4">
-            <LandingListItem title="Safety, security and compliance">
-              <p class="text-sm leading-relaxed text-gray-700">
-                NEFA is a licensed New York trust company that undergoes regular bank
-                exams and is subject to the cybersecurity audits conducted by the New York
-                Department of Financial Services.
-                <span class="underline">Learn more</span> about our commitment to
-                security.
-              </p>
-            </LandingListItem>
-            <LandingListItem title="Hardware security keys">
-              <p class="text-sm leading-relaxed text-gray-700">
-                With NEFA you can secure your account with a hardware security key via
-                WebAuthn.
-              </p>
-            </LandingListItem>
-            <LandingListItem title="SOC Certifications">
-              <p class="text-sm leading-relaxed text-gray-700">
-                NEFA is <span class="underline">SOC 1 Type 2</span> and
-                <span class="underline">SOC 2 Type 2</span> compliant. We are the world’s
-                first cryptocurrency exchange and custodian to complete these exams.
-              </p>
-            </LandingListItem>
-          </ul>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- Getting started section -->
-    <!-- <section
-      class="relative max-w-full my-24 overflow-hidden shadow bg-trading-tools sm:mx-4 xl:mx-10 sm:rounded-2xl"
-    >
-      <div class="flex flex-col items-center w-full py-16">
-        <h2 data-aos="flip-down" class="text-3xl font-semibold text-center sm:text-4xl">
-          Get started in just a few minutes
-        </h2>
-        <div
-          data-aos="fade-up"
-          class="relative flex flex-col items-center justify-between w-full px-4 mt-16 space-y-12 lg:flex-row lg:space-y-0 xl:px-10 sm:mt-8"
-        >
-          <LandingStep v-for="step in steps" :key="step.title" :step="step" />
-          <img
-            src="@/assets/img/getting-started/arrow.png"
-            class="hidden lg:inline-block absolute top-32 left-64 xl:left-[22rem] w-24 xl:w-[9.5rem]"
-            alt=""
-          />
-          <img
-            src="@/assets/img/getting-started/arrow.png"
-            class="hidden lg:inline-block absolute top-32 right-64 xl:right-[22rem] w-24 xl:w-[9.5rem]"
-            alt=""
-          />
-        </div>
-      </div>
-    </section> -->
 
     <div class="flex justify-center w-full my-14">
       <a
