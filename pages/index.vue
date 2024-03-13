@@ -134,10 +134,10 @@ const accordions = [
             </p>
           </div>
         </div>
-        <div data-aos="fade-down" class="relative col-span-12 md:col-span-6 h-[315px]">
+        <div data-aos="fade-down" class="relative col-span-12 md:col-span-6 md:h-[315px] h-[160px]">
           <BaseYoutubeVideo
             imageUrl="/img/gallery/duze-zjezdzalnie/dmuchana_zjeżdżalnia.jpeg"
-            videoId="J7UX0Zi4ATA"
+            videoId="FfinzxzyKUg"
             altText="Film z drona pokazującydmuchane zjeżdżalnie"
           />
         </div>
