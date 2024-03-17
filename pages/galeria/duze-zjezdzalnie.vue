@@ -8,7 +8,7 @@ const paths = [
     '/img/gallery/duze-zjezdzalnie/dmuchana zjezdzalnia.jpeg',
     '/img/gallery/duze-zjezdzalnie/dmuchana zjeżdżalnia dla dzieci.jpeg',
     '/img/gallery/duze-zjezdzalnie/dmuchana zjeżdżalnia.jpeg',
-    '/img/gallery/duze-zjezdzalnie/dmuchana_zjeżdżalnia.jpeg',
+    '/img/gallery/duze-zjezdzalnie/nowy-dmuchany-zamek.webp',
     '/img/gallery/duze-zjezdzalnie/dmuchana-zjeżdżalnia.jpeg',
     '/img/gallery/duze-zjezdzalnie/dmuchane zamki.jpeg',
     '/img/gallery/duze-zjezdzalnie/dmuchany zamek dla dzieci.jpeg',

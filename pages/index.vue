@@ -75,6 +75,7 @@ const accordions = [
               alt="Obrazek zamku dmuchanego"
               width="596"
               height="596"
+              format="webp"
               class="-mt-4"
             />
           </div>
@@ -86,6 +87,7 @@ const accordions = [
           alt="Ikona kulki"
           width="24"
           height="24"
+          format="webp"
           class="absolute hidden w-6 sm:block bottom-12 xl:bottom-16 left-4 xl:left-0"
         />
         <NuxtImg
@@ -95,6 +97,7 @@ const accordions = [
           alt="Ikona kulki"
           width="24"
           height="24"
+          format="webp"
           class="hidden sm:block absolute top-4 sm:top-10 right-64 sm:right-96 xl:right-[32rem] w-6"
         />
         <NuxtImg
@@ -104,6 +107,7 @@ const accordions = [
           alt="Ikona kulki"
           width="24"
           height="24"
+          format="webp"
           class="absolute hidden w-6 sm:block bottom-56 right-24"
         />
         <NuxtImg
@@ -113,6 +117,7 @@ const accordions = [
           alt="Ikona gwiazdki"
           width="32"
           height="32"
+          format="webp"
           class="hidden sm:block absolute top-20 sm:top-28 right-16 lg:right-0 lg:left-[30rem] w-8"
         />
       </BaseSection>
@@ -136,7 +141,7 @@ const accordions = [
         </div>
         <div data-aos="fade-down" class="relative col-span-12 md:col-span-6 md:h-[315px] h-[160px]">
           <BaseYoutubeVideo
-            imageUrl="/img/gallery/duze-zjezdzalnie/dmuchana_zjeżdżalnia.jpeg"
+            imageUrl="/img/gallery/duze-zjezdzalnie/nowy-dmuchany-zamek.webp"
             videoId="FfinzxzyKUg"
             altText="Film z drona pokazującydmuchane zjeżdżalnie"
           />
@@ -149,6 +154,7 @@ const accordions = [
           alt="Ikona gwiazdki"
           width="24"
           height="24"
+          format="webp"
           loading="lazy"
           class="absolute hidden w-6 sm:block bottom-12 xl:bottom-16 left-4 xl:left-16"
         />
@@ -193,6 +199,7 @@ const accordions = [
           alt="Ikona kulki"
           width="24"
           height="24"
+          format="webp"
           loading="lazy"
           class="absolute hidden w-6 sm:block bottom-12 xl:top-16 right-4 xl:right-1/4"
         />
@@ -210,7 +217,7 @@ const accordions = [
           data-aos="fade-up"
           title="Dmuchane zjeżdżalnie"
           alt="Zdjęie zmuchanej zjeżdżalni"
-          pathPreview="/img/gallery/duze-zjezdzalnie/dmuchana_zjeżdżalnia.jpeg"
+          pathPreview="/img/gallery/duze-zjezdzalnie/nowy-dmuchany-zamek.webp"
           pathPage="/galeria/duze-zjezdzalnie"
           class="col-span-12 sm:col-span-6 md:col-span-4"
         />
@@ -220,8 +227,53 @@ const accordions = [
           data-aos-delay="100"
           title="Baseny z kulkami"
           alt="Zdjęie basenu z kulkami"
-          pathPreview="/img/gallery/baseny/basen z kulkami.jpeg"
+          pathPreview="/img/gallery/baseny/basen-z-kulkami.webp"
           pathPage="/galeria/baseny-z-kulkami"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
+        />
+        <LandingTile
+          data-aos="fade-up"
+          data-aos-delay="200"
+          title="Kule wodne, łódeczki"
+          alt="Zdjęie rowerów wodnych"
+          pathPreview="/img/gallery/kule-wodne-lodeczki/rowery-wodne.webp"
+          pathPage="/galeria/kule-wodne-lodeczki"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
+        />
+
+        <LandingTile
+          data-aos="fade-up"
+          title="Bramka celnościowa"
+          alt="Bramka celnościowa"
+          pathPreview="/img/gallery/bramka-celnosciowa/bramka-do-pilki.webp"
+          pathPage="/galeria/bramka-celnosciowa"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
+        />
+        <LandingTile
+          data-aos="fade-up"
+          data-aos-delay="100"
+          title="Namioty imprezowe"
+          alt="Namioty imprezowe"
+          pathPreview="/img/gallery/namioty-imprezowe/namioty.webp"
+          pathPage="/galeria/namioty-imprezowe"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
+        />
+        <LandingTile
+          data-aos="fade-up"
+          data-aos-delay="200"
+          title="Sztuczna krowa"
+          alt="Sztuczna krowa."
+          pathPreview="/img/gallery/sztuczna-krowa/sztuczna-krowa-do-dojenia.webp"
+          pathPage="/galeria/sztuczna-krowa"
+          class="col-span-12 sm:col-span-6 md:col-span-4"
+        />
+
+        <LandingTile
+          data-aos="fade-up"
+          title="Wata cukrowa, popcorn"
+          alt="Wata cukrowa"
+          pathPreview="/img/gallery/wata-cukrowa-popcorn/wata-cukrowa.webp"
+          pathPage="/galeria/wata-cukrowa-popcorn"
           class="col-span-12 sm:col-span-6 md:col-span-4"
         />
         
@@ -233,6 +285,7 @@ const accordions = [
           alt="Ikona kulki"
           width="12"
           height="12"
+          format="webp"
           loading="lazy"
           class="absolute hidden w-3 sm:block bottom-12 xl:top-2 xl:right-3/4"
         />
@@ -298,6 +351,7 @@ const accordions = [
           alt="Ikona gwiazdki"
           width="24"
           height="24"
+          format="webp"
           loading="lazy"
           class="absolute hidden w-6 sm:block xl:top-2 xl:right-3/4"
         />
@@ -307,6 +361,7 @@ const accordions = [
           alt="Ikona gwiazdki"
           width="24"
           height="24"
+          format="webp"
           loading="lazy"
           class="absolute hidden w-6 sm:block xl:top-9 xl:left-3/4"
         />
@@ -365,6 +420,7 @@ const accordions = [
               alt="Obrazek z logo partnera"
               width="288"
               height="139"
+              format="webp"
               loading="lazy"
               class="mx-auto sm:w-1/2 md:w-1/4 lg:w-72"
             />

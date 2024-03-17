@@ -36,6 +36,7 @@ const toggler = ref(false);
         :alt="alt"
         width="373"
         height="280"
+        format="webp"
         loading="lazy"
         class="max-h-[280px]" 
         @click="toggler = toggler = !toggler" 

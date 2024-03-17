@@ -50,6 +50,7 @@ const selectImage = (index: number) => {
                   :alt="layoutCustomProps.title"
                   width="373"
                   height="280"
+                  format="webp"
                   loading="lazy"
                   @click="selectImage(index + 1)" 
                 />

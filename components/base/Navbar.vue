@@ -22,6 +22,7 @@ onMounted(() => {
                 alt="Dmuchńce Kępno Logo"
                 width="112"
                 height="83" 
+                format="webp"
                 class="w-24 xl:w-28" 
               />
             </NuxtLink>

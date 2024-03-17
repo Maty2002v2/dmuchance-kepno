@@ -5,7 +5,7 @@ definePageMeta({
 
 const paths = [
   '/img/gallery/baseny/dmuchany basen z kulkami.jpeg',
-  '/img/gallery/baseny/basen z kulkami.jpeg',
+  '/img/gallery/baseny/basen-z-kulkami.webp',
   '/img/gallery/baseny/basen_na_kulki.jpeg',
   '/img/gallery/baseny/basen_z_kulkami.jpeg',
   '/img/gallery/baseny/dmuchany_basen_z_kulkami.jpeg',
