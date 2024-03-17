@@ -12,7 +12,6 @@
                 alt="Dmuchane Zamki Kępno Logo"
                 width="96"
                 height="71"
-                format="webp"
                 loading="lazy"
                 class="w-24 -mt-2" 
               />

@@ -21,8 +21,7 @@ onMounted(() => {
                 src="/img/logo/dmuchance-kepno.svg" 
                 alt="Dmuchńce Kępno Logo"
                 width="112"
-                height="83" 
-                format="webp"
+                height="83"
                 class="w-24 xl:w-28" 
               />
             </NuxtLink>
