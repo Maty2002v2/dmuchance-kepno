@@ -58,10 +58,10 @@ const accordions = [
             data-aos-delay="700"
             class="flex flex-col mt-2 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4"
           >
-          <a href="tel:+4733378901" class="mx-auto sm:mx-0">
+          <a href="tel:+48698175028" class="mx-auto sm:mx-0">
             <BaseButton ariaLabel="Call us" class="flex items-center gap-3 px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">
               <PhoneIcon />
-              +47 333 789 011
+              +48 698 175 028
             </BaseButton>
           </a>
           </div>
@@ -71,7 +71,7 @@ const accordions = [
             <NuxtImg
               data-aos="fade-up"
               data-aos-once="true"
-              src="/img/header-image.png"
+              src="/img/header-image.webp"
               alt="Obrazek zamku dmuchanego"
               width="596"
               height="596"
@@ -88,7 +88,7 @@ const accordions = [
           width="24"
           height="24"
           format="webp"
-          class="absolute hidden w-6 sm:block bottom-12 xl:bottom-16 left-4 xl:left-0"
+          class="absolute hidden w-6 sm:block bottom-12 xl:bottom-16 left-28 xl:left-0"
         />
         <NuxtImg
           data-aos="fade-up"
@@ -98,7 +98,7 @@ const accordions = [
           width="24"
           height="24"
           format="webp"
-          class="hidden sm:block absolute top-4 sm:top-10 right-64 sm:right-96 xl:right-[32rem] w-6"
+          class="hidden sm:block absolute top-0 sm:top-10 right-64 sm:right-96 xl:right-[32rem] w-6"
         />
         <NuxtImg
           data-aos="fade-up"
@@ -287,7 +287,7 @@ const accordions = [
           height="12"
           format="webp"
           loading="lazy"
-          class="absolute hidden w-3 sm:block bottom-12 xl:top-2 xl:right-3/4"
+          class="absolute hidden w-3 sm:block xl:top-2 xl:right-3/4 top-2 left-10"
         />
     </section>
 
@@ -353,7 +353,7 @@ const accordions = [
           height="24"
           format="webp"
           loading="lazy"
-          class="absolute hidden w-6 sm:block xl:top-2 xl:right-3/4"
+          class="absolute hidden w-6 sm:block top-2 right-3/4"
         />
         <NuxtImg
           data-aos="fade-up"
@@ -363,7 +363,7 @@ const accordions = [
           height="24"
           format="webp"
           loading="lazy"
-          class="absolute hidden w-6 sm:block xl:top-9 xl:left-3/4"
+          class="absolute hidden w-6 sm:block top-9 left-3/4"
         />
     </section>
 
@@ -393,7 +393,7 @@ const accordions = [
     </section>
 
     <!-- Trust section -->
-    <section
+    <!-- <section
       id="theyTrustedUs"
       class="relative max-w-full overflow-hidden shadow py-14 mb-14 md:py-20 md:mb-20 bg-partner rounded-2xl"
     >
@@ -425,14 +425,23 @@ const accordions = [
               class="mx-auto sm:w-1/2 md:w-1/4 lg:w-72"
             />
           </div>
+          <NuxtImg
+            data-aos="fade-up"
+            data-aos-delay="300"
+            src="/img/contact.webp"
+            alt="Ikona gwiazdki"
+            height="400"
+            width="500"
+            loading="lazy"
+          ></NuxtImg>
         </div>
       </BaseSection>
-    </section>
+    </section> -->
 
     <!-- Contact section -->
     <section
       id="contact"
-      class="relative max-w-full overflow-hidden my-14 py-14 md:py-20 md:my-20 sm:mx-4 rounded-2xl"
+      class="relative max-w-full overflow-hidden shadow py-14 md:py-20 rounded-2xl bg-partner md:my-20 my-14"
     >
       <BaseSection>
         <div
@@ -454,14 +463,14 @@ const accordions = [
                 Telefonicznie
               </h3>
               <p class="text-sm paragraph xl:text-base">
-                +12 234 456 789 <br/>
-                +12 234 456 789
+                <!-- +48 698 175 028 <br/> -->
+                +48 698 175 028
               </p>
             </div>
             <div class="space-y-2">
               <h3 class="text-lg font-medium">Mailowo</h3>
               <p class="text-sm paragraph xl:text-base">
-                adresemail@gmail.com
+                dmuchancekepno@gmail.com
               </p>
             </div>
             <div class="space-y-2">
@@ -472,7 +481,7 @@ const accordions = [
               </p>
             </div>
             <div class="flex flex-col gap-2 sm:flex-row">
-              <a href="tel:+4733378901">
+              <a href="tel:+48698175028">
                 <BaseButton
                   ariaLabel="Call us"
                   class="px-10 py-4 bg-inherit text-gradient border border-[#4A8FF6] text-base"

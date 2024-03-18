@@ -38,25 +38,25 @@
           <p class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Kontakt</p>
           <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <PhoneIcon />
-            +47 333 789 011
+            +48 698 175 028
           </p>
-          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          <!-- <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <PhoneIcon />
             +47 333 789 011
-          </p>
+          </p> -->
           <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <EmailOutlineIcon />
-            adresemail@gmail.com
+            dmuchancekepno@gmail.com
           </p>
         </div>
         <div
           class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
         >
           <p class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Sociale</p>
-          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          <a href="https://www.facebook.com/profile.php?id=100064388723710" class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <FacebookIcon />
             Facebook
-          </p>
+          </a>
           <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <InstagramIcon />
             Instagram
