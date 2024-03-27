@@ -42,16 +42,16 @@ const accordions = [
             data-aos-once="true"
             class="text-[2.5rem] sm:text-5xl xl:text-6xl font-bold leading-tight capitalize sm:pr-8 xl:pr-10"
           >
-            Wynajem <span class="text-header-gradient">dmuchanych zamkow</span> i wiele więcej
+            Wynajem <span class="text-header-gradient">dmuchanych zamkow</span> i innych urządzeń rekreacyjnych
           </h1>
-          <p
+          <!-- <p
             data-aos="fade-down"
             data-aos-once="true"
             data-aos-delay="300"
             class="hidden paragraph sm:block"
           >
             Dmuchane zamki, zjeżdżalnie, atrakcję na festyny, urodziny i inne imprezy. Działamy nie tylko lokalnie w Kępnie czy wielkopolsce.
-          </p>
+          </p> -->
           <div
             data-aos="fade-up"
             data-aos-once="true"
@@ -133,9 +133,13 @@ const accordions = [
         <div data-aos="fade-up" class="relative col-span-12 md:col-span-6">
           <div class="space-y-2">
             <p class="text-lg font-medium">
-              Nasza firma zajmuje się <span class="text-header-gradient">wynajmem urządzeń rekreacyjnych</span>. 
-              Jesteśmy od <span class="text-header-gradient">18 lat</span> na rynku. Współpracujemy z gminami, ośrodkami kultury, 
-              radami soleckimi, szkołami, przedszkolami. <span class="text-header-gradient">Wystawiamy FV</span>.
+              Nasza firma zajmuje się <span class="text-header-gradient">wynajmem urządzeń rekreacyjnych</span>.<br> W naszej firmie posiadamy zjeżdżalnie duże, średnie, suche baseny do skakania z piłeczkami, 
+              bramkę celnościową, sztuczną krowę do dojenia, łódeczki oraz kule wodne.<br> <br>
+              <span class="text-header-gradient">Od lat</span> współpracujemy z gminami, przedszkolami, szkołami, sołectwami, ośrodkami kultury, czy radami sołeckimi.
+              Wynajmując nasze atrakcje masz <span class="text-header-gradient">gwarancję miłej i fachowej obsługi</span>.<br> <br>
+
+              <span class="text-header-gradient">Zajmujemy się również</span> wynajmem namiotów imprezowych wraz z wyposażeniem. 
+              Posiadamy namioty o wymiarach 4x8 oraz 8x16.
             </p>
           </div>
         </div>
@@ -225,7 +229,7 @@ const accordions = [
         <LandingTile
           data-aos="fade-up"
           data-aos-delay="100"
-          title="Baseny z kulkami"
+          title="Suche baseny z piłeczkami "
           alt="Zdjęie basenu z kulkami"
           pathPreview="/img/gallery/baseny/basen-z-kulkami.webp"
           pathPage="/galeria/baseny-z-kulkami"
@@ -463,8 +467,8 @@ const accordions = [
                 Telefonicznie
               </h3>
               <p class="text-sm paragraph xl:text-base">
-                <!-- +48 698 175 028 <br/> -->
-                +48 698 175 028
+                +48 698 175 028 <br/>
+                +48 604 482 756
               </p>
             </div>
             <div class="space-y-2">

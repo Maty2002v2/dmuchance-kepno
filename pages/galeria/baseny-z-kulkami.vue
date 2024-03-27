@@ -21,5 +21,5 @@ const paths = [
 </script>
 
 <template>
-    <NuxtLayout name="gallery" :paths="paths" title="Baseny z kulkami"/>
+    <NuxtLayout name="gallery" :paths="paths" title="Suche baseny z piłeczkami "/>
 </template>

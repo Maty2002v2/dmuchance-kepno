@@ -40,10 +40,10 @@
             <PhoneIcon />
             +48 698 175 028
           </p>
-          <!-- <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <PhoneIcon />
-            +47 333 789 011
-          </p> -->
+            +48 604 482 756
+          </p>
           <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <EmailOutlineIcon />
             dmuchancekepno@gmail.com
