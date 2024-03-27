@@ -40,7 +40,7 @@ onMounted(() => {
             <NavLink name="Nasz liczby" url="/#ourNumbers" />
             <NavLink name="Galeria" url="/#gallery" />
             <NavLink name="Najczęstrze pytania" url="/#faq" />
-            <NavLink name="Zaufali nam" url="/#theyTrustedUs" />
+            <!-- <NavLink name="Zaufali nam" url="/#theyTrustedUs" /> -->
             <NavLink name="Kontakt" url="/#contact" />
           </ul>
         </Accordion>
