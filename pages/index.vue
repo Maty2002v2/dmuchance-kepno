@@ -3,22 +3,22 @@ const accordions = [
   {
     title: "Kogo obsługujemy?",
     description:
-      "Obsuługujemy duże, średnie małe festyny, imprezy zbiorowe, prywatne, organizowane na zewnoątrz i w środku.",
+      "Obsługujemy różnego rodzaju uroczystości, takie jak: Komunie, festyny szkolne oraz przedszkolne, dożynki, imprezy firmowe, ale także przyjedziemy do Ciebie indywidualnie na podwórko, aby dzieci mogły czerpać radość z naszych atrakcji 😀. Od 13 lat współpracujemy z Gminami, Centrami Kultury, bibliotekami, sołectwami.",
   },
   {
     title: "Czy wystawiamy faktury?",
     description:
-      "Oczywiście że tak. Na Jeśli klient sobie tego życzy to wystawimy fakturę",
+      "Taak, wystawiamy faktury.",
   },
   {
     title: "Dla kogo posiadamy atrakję?",
     description:
-      "Zapewniamy rozrywkę dla najmłodszych ale nie tylko dzieci będą się z nami dobrze bawiły. Dla dorosłych również posiadomy coś fajnego.",
+      "Nasze atrakcje przeznaczone są dla dzieci w każdym wieku, ale nie tylko 😀. Sztuczna krowa do dojenia idealnie sprawdzi się podczas konkurencji dojenia na czas, a nasza bramka celnościowa sprawia, że dorosły chce spróbować swoich sił i trafić jak najlepszy wynik 😀.",
   },
   {
     title: "Czy jesteśmy na imprezie znjmując się aktrakcjami?",
     description:
-      "Jasne że wezimniemy na siebie obowiązek dostarczenia, przygotowania i czuwania nad atrakcjami. Chyba że na prośbę mamy tyko przyjechać, rozłożyć i umówionego dnia przyjechać i posprzątać.",
+      "Dbając o bezpieczeństwo dzieci, zawsze jest osoba, która zadba o to, aby zabawa na wynajętych atrakcjach była bezpieczna.",
   },
 ];
 </script>
