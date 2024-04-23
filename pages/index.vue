@@ -42,7 +42,7 @@ const accordions = [
             data-aos-once="true"
             class="text-[2.5rem] sm:text-5xl xl:text-6xl font-bold leading-tight capitalize sm:pr-8 xl:pr-10"
           >
-            Wynajem <span class="text-header-gradient">dmuchanych zamkow</span> i innych urządzeń rekreacyjnych
+            Wynajem <span class="text-header-gradient">dmuchanych zamków</span> i innych urządzeń rekreacyjnych
           </h1>
           <!-- <p
             data-aos="fade-down"
