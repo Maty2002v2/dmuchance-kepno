@@ -8,10 +8,10 @@ const accordions = [
   {
     title: "Czy wystawiamy faktury?",
     description:
-      "Taak, wystawiamy faktury.",
+      "Tak, wystawiamy faktury.",
   },
   {
-    title: "Dla kogo posiadamy atrakję?",
+    title: "Dla kogo posiadamy atrakcję?",
     description:
       "Nasze atrakcje przeznaczone są dla dzieci w każdym wieku, ale nie tylko 😀. Sztuczna krowa do dojenia idealnie sprawdzi się podczas konkurencji dojenia na czas, a nasza bramka celnościowa sprawia, że dorosły chce spróbować swoich sił i trafić jak najlepszy wynik 😀.",
   },
@@ -59,7 +59,7 @@ const accordions = [
             class="flex flex-col mt-2 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4"
           >
           <a href="tel:+48698175028" class="mx-auto sm:mx-0">
-            <BaseButton ariaLabel="Call us" class="flex items-center gap-3 px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white">
+            <BaseButton ariaLabel="Call us" class="flex items-center gap-3 px-8 xl:px-10 py-3 mt-2 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] text-white font-semibold !text-base">
               <PhoneIcon />
               +48 698 175 028
             </BaseButton>
@@ -143,7 +143,7 @@ const accordions = [
             </p>
           </div>
         </div>
-        <div data-aos="fade-down" class="relative col-span-12 md:col-span-6 md:h-[315px] h-[160px]">
+        <div data-aos="fade-down" class="relative col-span-12 md:col-span-6 h-[315px]">
           <BaseYoutubeVideo
             imageUrl="/img/gallery/duze-zjezdzalnie/nowy-dmuchany-zamek.webp"
             videoId="FfinzxzyKUg"
@@ -300,7 +300,7 @@ const accordions = [
       <BaseSection class="p-1">
         <div class="flex justify-center col-span-12">
           <h2 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
-            Nasze <span class="text-header-gradient">gwarancje</span> dla ciebie
+            Nasze <span class="text-header-gradient">gwarancje</span> dla Ciebie
           </h2>
         </div>
         <div class="flex flex-wrap items-center justify-center col-span-12 transform bg-white shadow-lg lg:flex-row rounded-xl sm:shadow-md">
@@ -321,7 +321,7 @@ const accordions = [
           >
             <div class="flex flex-col items-center text-center">
             <VectorLineIcon size="50"/>
-              Zamki skrojone na miarę twojej imprezy!
+              Zamki skrojone na miarę Twojej imprezy!
             </div>
           </div>
 
@@ -343,7 +343,7 @@ const accordions = [
           >
             <div class="flex flex-col items-center text-center">
               <BookOpenBlankVariantOutlineIcon size="50"/>
-                Wszystok co najlepsze prosto i przejrzysto!
+                Wszystko co najlepsze prosto i przejrzysto!
             </div>
           </div>
         </div>
@@ -376,7 +376,7 @@ const accordions = [
       <BaseSection>
         <div class="flex justify-center col-span-12">
           <h2 data-aos="flip-down" class="mb-4 text-2xl font-semibold text-neutral-800">
-            Najczęstrze <span class="text-header-gradient">pytania</span>
+            Najczęstsze <span class="text-header-gradient">pytania</span>
           </h2>
         </div>
         <div
@@ -466,21 +466,26 @@ const accordions = [
               <h3 class="text-lg font-medium">
                 Telefonicznie
               </h3>
-              <p class="text-sm paragraph xl:text-base">
-                +48 698 175 028 <br/>
+              <a href="tel:+48698175028" class="text-sm paragraph xl:text-base">
+                +48 698 175 028
+              </a>
+              
+              <br/>
+
+              <a href="tel:+48604482756" class="text-sm paragraph xl:text-base">
                 +48 604 482 756
-              </p>
+              </a>
             </div>
             <div class="space-y-2">
               <h3 class="text-lg font-medium">Mailowo</h3>
-              <p class="text-sm paragraph xl:text-base">
+              <a href="mailto:dmuchancekepno@gmail.com" class="text-sm paragraph xl:text-base">
                 dmuchancekepno@gmail.com
-              </p>
+              </a>
             </div>
             <div class="space-y-2">
               <h3 class="text-lg font-medium">Jesteśmy dostępni pod adresem</h3>
               <p class="text-sm paragraph xl:text-base">
-                Mikorzyn nr domu <br/>
+                Mikorzyn <br/>
                 63-600 Kępno
               </p>
             </div>

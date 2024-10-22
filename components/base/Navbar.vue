@@ -36,12 +36,11 @@ onMounted(() => {
             v-if="showOptions"
             class="flex flex-col flex-grow w-full h-auto pb-4 space-y-3 duration-300 origin-top lg:items-center lg:pb-0 lg:justify-end lg:flex-row xl:space-x-2 lg:space-y-0"
           >
-            <NavLink name="O nas" url="/#aboutUs" />
-            <NavLink name="Nasz liczby" url="/#ourNumbers" />
-            <NavLink name="Galeria" url="/#gallery" />
-            <NavLink name="Najczęstrze pytania" url="/#faq" />
-            <!-- <NavLink name="Zaufali nam" url="/#theyTrustedUs" /> -->
-            <NavLink name="Kontakt" url="/#contact" />
+            <NavLink name="O nas" url="/#aboutUs" class="lg:text-center"/>
+            <NavLink name="Nasze liczby" url="/#ourNumbers" class="lg:text-center"/>
+            <NavLink name="Galeria" url="/#gallery" class="lg:text-center"/>
+            <NavLink name="Najczęstsze pytania" url="/#faq" class="lg:text-center"/>
+            <NavLink name="Kontakt" url="/#contact" class="lg:text-center"/>
           </ul>
         </Accordion>
       </div>

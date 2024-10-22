@@ -19,7 +19,7 @@
           </div>
           <ul class="space-y-4">
             <NavLink name="O nas" url="#aboutUs" />
-            <NavLink name="Nasz liczby" url="#ourNumbers" />
+            <NavLink name="Nasze liczby" url="#ourNumbers" />
             <NavLink name="Galeria" url="#gallery" />
           </ul>
         </div>
@@ -27,7 +27,7 @@
           class="md:w-full lg:w-full lg:border-r w-full sm:w-1/2 xl:w-fit sm:px-16 py-6 sm:py-12 border-t sm:border-t xl:border-r border-[#DDDDDD]"
         >
           <ul class="space-y-4">
-            <NavLink name="Najczęstrze pytania" url="#faq" />
+            <NavLink name="Najczęstsze pytania" url="#faq" />
             <NavLink name="Zaufali nam" url="#theyTrustedUs" />
             <NavLink name="Kontakt" url="#contact" />
           </ul>
@@ -36,18 +36,18 @@
           class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
         >
           <p class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Kontakt</p>
-          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          <a href="tel:+48698175028" class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <PhoneIcon />
             +48 698 175 028
-          </p>
-          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          </a>
+          <a href="tel:+48604482756" class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <PhoneIcon />
             +48 604 482 756
-          </p>
-          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          </a>
+          <a href="mailto:dmuchancekepno@gmail.com" class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <EmailOutlineIcon />
             dmuchancekepno@gmail.com
-          </p>
+          </a>
         </div>
         <div
           class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
@@ -61,10 +61,10 @@
             <InstagramIcon />
             Instagram
           </p>
-          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          <a href="https://www.youtube.com/@dmuchancekepno" class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <YoutubeIcon />
             Youtube
-          </p>
+          </a>
         </div>
         <!-- <div
           class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
@@ -92,7 +92,7 @@
       &copy; Copyright 2024 Dmuchane zamki Kępno. Wszystkie prawa zastrzeżone
     </div>
     <div class="pb-8 text-center text-sm text-[#666666] hover:text-gray-900">
-      Realizacja <a href="https://www.facebook.com/profile.php?id=100008562976078">Mateuz Małolepszy</a>
+      Realizacja <a href="https://www.facebook.com/profile.php?id=100008562976078">Mateusz Małolepszy</a>
     </div>
   </footer>
 </template>
