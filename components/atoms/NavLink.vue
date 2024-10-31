@@ -8,17 +8,9 @@
     </a>
   </li>
 </template>
-<script>
-export default {
-  props: {
-    name: {
-      type: String,
-      required: true,
-    },
-    url: {
-      type: String,
-      required: true,
-    },
-  },
-}
+<script lang="ts" setup>
+defineProps<{
+  name: string;
+  url: string;
+}>();
 </script>

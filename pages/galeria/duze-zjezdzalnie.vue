@@ -4,21 +4,6 @@ definePageMeta({
 });
 
 const paths = [
-    // '/img/gallery/duze-zjezdzalnie/dmuchana zjezdzalnia dla dzieci.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/dmuchana zjezdzalnia.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/dmuchana zjeżdżalnia dla dzieci.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/dmuchana zjeżdżalnia.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/nowy-dmuchany-zamek.webp',
-    // '/img/gallery/duze-zjezdzalnie/dmuchana-zjeżdżalnia.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/dmuchane zamki.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/dmuchany zamek dla dzieci.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/zjeżdżalnia dla dzieci.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/nadmuchiwana_zjeżdżalnia.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/nadmuchiwana-zjeżdżalnia.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/zjezdzalnia dla dzieci.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/zjezdzalnie dla dzieci.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/zjeżdżalnie dla dzieci.jpeg',
-    // '/img/gallery/duze-zjezdzalnie/nadmuchiwana zjeżdżalnia.jpeg',
     '/img/gallery/duze-zjezdzalnie/118590556_3893074684052842_1843989115038803592_o (1).jpg',
     '/img/gallery/duze-zjezdzalnie/233424044_978841919563950_1875101083456561267_n.jpg',
     '/img/gallery/duze-zjezdzalnie/241137945_380134883705962_7437565679205145296_n.jpg',

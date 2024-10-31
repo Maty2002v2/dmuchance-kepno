@@ -2,23 +2,18 @@
   <div class="relative min-h-screen font-sans antialiased">
     <div class="relative">
       <div
-        class="absolute top-0 left-0 w-full h-[60vh] sm:h-[130vh] lg:h-[100vh] cover-gradient-2 sm:cover-gradient"
+        class="absolute top-0 left-0 w-full h-[100vh] sm:h-[150vh] lg:h-[120vh] cover-gradient-2 sm:cover-gradient"
       ></div>
-      <BaseNavbar />
+      <OrganismsNavbar />
 
       <main class="z-10 text-neutral-800">
         <slot></slot>
       </main>
 
-      <BaseFooter />
+      <OrganismsFooter />
     </div>
   </div>
 </template>
-<script>
-export default {
-  name: 'DefaultLayout',
-}
-</script>
 
 <style>
 .cover-gradient {
@@ -46,39 +41,5 @@ export default {
 .text-gradient {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.slide-enter-active {
-  -moz-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -moz-transition-timing-function: ease-in;
-  -webkit-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
-}
-
-.slide-leave-active {
-  -moz-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-}
-
-.slide-enter-to,
-.slide-leave {
-  max-height: 100px;
-  overflow: hidden;
-}
-
-.slide-enter,
-.slide-leave-to {
-  overflow: hidden;
-  max-height: 0;
 }
 </style>

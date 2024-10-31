@@ -18,14 +18,6 @@ const url = computed(() => `https://www.youtube.com/embed/${props.videoId}?rel=0
     <div
       v-if="!loadVideo"
     >
-      <!-- <NuxtImg
-        :src="imageUrl"
-        :alt="altText"
-        width="596"
-        height="315"
-        format="webp"
-        class="w-full h-full"
-      /> -->
       <div class="absolute top-0 left-0 w-full h-full cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"

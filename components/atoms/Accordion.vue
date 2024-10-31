@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-const start = (el) => (el.style.height = el.scrollHeight + "px");
-const end = (el) => (el.style.height = "");
+const start = (el: Element) => ((el as HTMLElement).style.height = el.scrollHeight + "px");
+const end = (el: Element) => ((el as HTMLElement).style.height = "");
 </script>
 
 <template>
