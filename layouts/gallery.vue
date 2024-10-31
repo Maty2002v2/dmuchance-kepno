@@ -13,7 +13,7 @@ const selectImage = (index: number) => {
 <template>
   <div class="relative min-h-screen font-sans antialiased">
     <div class="relative">
-      <BaseNavbar />
+      <OrganismsNavbar />
       <div
         class="absolute top-0 left-0 w-full h-full cover-gradient-2 sm:cover-gradient"
       ></div>
@@ -21,7 +21,7 @@ const selectImage = (index: number) => {
       <main class="z-10 text-neutral-800">
         <div class="w-full">
           <header class="mt-12 mb-16">
-            <BaseSection>
+            <AtomsSection>
               <NuxtLink
                 to="/"
                 class="flex items-center px-3 py-1 space-x-1 text-sm font-medium text-blue-500 transition duration-300 rounded-md hover:bg-blue-50"
@@ -36,10 +36,10 @@ const selectImage = (index: number) => {
               >
                 {{ layoutCustomProps.title }}
               </h1>
-            </BaseSection>
+            </AtomsSection>
           </header>
           <section class="w-full pb-24">
-            <BaseSection>
+            <AtomsSection>
               <div
                 v-for="(imagePath, index) in layoutCustomProps.paths"
                 :key="index"
@@ -55,7 +55,7 @@ const selectImage = (index: number) => {
                   @click="selectImage(index + 1)" 
                 />
               </div>
-            </BaseSection>
+            </AtomsSection>
           </section>
 
           <FsLightbox
@@ -66,7 +66,7 @@ const selectImage = (index: number) => {
         </div>
       </main>
     </div>
-    <BaseFooter />
+    <OrganismsFooter />
   </div>
 </template>
 
@@ -96,39 +96,5 @@ const selectImage = (index: number) => {
 .text-gradient {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.slide-enter-active {
-  -moz-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -moz-transition-timing-function: ease-in;
-  -webkit-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
-}
-
-.slide-leave-active {
-  -moz-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-}
-
-.slide-enter-to,
-.slide-leave {
-  max-height: 100px;
-  overflow: hidden;
-}
-
-.slide-enter,
-.slide-leave-to {
-  overflow: hidden;
-  max-height: 0;
 }
 </style>

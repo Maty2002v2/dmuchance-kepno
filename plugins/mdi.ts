@@ -18,6 +18,7 @@ import EmailOutlineIcon from 'vue-material-design-icons/EmailOutline.vue'
 import FacebookIcon from 'vue-material-design-icons/Facebook.vue'
 import InstagramIcon from 'vue-material-design-icons/Instagram.vue'
 import YoutubeIcon from 'vue-material-design-icons/Youtube.vue'
+import ClickIcon from 'vue-material-design-icons/CursorDefaultClick.vue'
 
 const components = {
   ChevronDownIcon,
@@ -39,7 +40,8 @@ const components = {
   EmailOutlineIcon,
   FacebookIcon,
   InstagramIcon,
-  YoutubeIcon
+  YoutubeIcon,
+  ClickIcon
 }
 
 export default defineNuxtPlugin(nuxtApp => {

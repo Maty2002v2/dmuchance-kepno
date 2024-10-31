@@ -8,12 +8,16 @@
     <slot></slot>
   </button>
 </template>
-<script>
-export default {
-  name: 'BaseButton',
-  inheritAttrs: false,
-  props: {
-    ariaLabel: String
+<script lang="ts" setup>
+defineProps<{
+  ariaLabel: string;
+}>();
+</script>
+
+<style lang="scss" scoped>
+button {
+  &:active {
+    transform: scale(0.9);
   }
 }
-</script>
+</style>

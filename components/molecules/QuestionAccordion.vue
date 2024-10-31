@@ -1,6 +1,9 @@
 <script lang="ts" setup>
 defineProps<{
-  accordion: {}
+  accordion: {
+    title: string;
+    description: string;
+  }
 }>();
 
 const selected = ref(false);
@@ -16,7 +19,7 @@ const selected = ref(false);
       </div>
     </button>
 
-    <Accordion>
+    <AtomsAccordion>
       <div v-if="selected" class="relative overflow-hidden transition-all duration-700" style="">
         <div class="py-2">
           <p class="text-sm leading-relaxed tracking-wide text-gray-700">
@@ -24,6 +27,6 @@ const selected = ref(false);
           </p>
         </div>
       </div>
-    </Accordion>
+    </AtomsAccordion>
   </li>
 </template>

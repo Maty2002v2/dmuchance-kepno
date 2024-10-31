@@ -18,36 +18,36 @@
             </a>
           </div>
           <ul class="space-y-4">
-            <NavLink name="O nas" url="#aboutUs" />
-            <NavLink name="Nasz liczby" url="#ourNumbers" />
-            <NavLink name="Galeria" url="#gallery" />
+            <AtomsNavLink name="O nas" url="#aboutUs" />
+            <AtomsNavLink name="Nasze liczby" url="#ourNumbers" />
+            <AtomsNavLink name="Galeria" url="#gallery" />
           </ul>
         </div>
         <div
           class="md:w-full lg:w-full lg:border-r w-full sm:w-1/2 xl:w-fit sm:px-16 py-6 sm:py-12 border-t sm:border-t xl:border-r border-[#DDDDDD]"
         >
           <ul class="space-y-4">
-            <NavLink name="Najczęstrze pytania" url="#faq" />
-            <NavLink name="Zaufali nam" url="#theyTrustedUs" />
-            <NavLink name="Kontakt" url="#contact" />
+            <AtomsNavLink name="Najczęstsze pytania" url="#faq" />
+            <AtomsNavLink name="Zaufali nam" url="#theyTrustedUs" />
+            <AtomsNavLink name="Kontakt" url="#contact" />
           </ul>
         </div>
         <div
           class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
         >
           <p class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Kontakt</p>
-          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          <a href="tel:+48698175028" class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <PhoneIcon />
             +48 698 175 028
-          </p>
-          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          </a>
+          <a href="tel:+48604482756" class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <PhoneIcon />
             +48 604 482 756
-          </p>
-          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          </a>
+          <a href="mailto:dmuchancekepno@gmail.com" class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <EmailOutlineIcon />
             dmuchancekepno@gmail.com
-          </p>
+          </a>
         </div>
         <div
           class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
@@ -61,38 +61,18 @@
             <InstagramIcon />
             Instagram
           </p>
-          <p class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
+          <a href="https://www.youtube.com/@dmuchancekepno" class="flex items-center gap-3 text-sm text-[#666666] focus:outline-none focus:shadow-outline">
             <YoutubeIcon />
             Youtube
-          </p>
+          </a>
         </div>
-        <!-- <div
-          class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]"
-        >
-          <h5 class="text-sm font-medium text-[#666666] focus:outline-none focus:shadow-outline">Newsletter</h5>
-          <p class="text-sm text-[#666666] focus:outline-none focus:shadow-outline">
-            Never miss anything crypto when <br class="sm:hidden" />you're on the go
-          </p>
-          <div class="flex items-center space-x-2">
-            <input
-              type="text"
-              class="w-full px-2 py-4 sm:py-3 rounded-lg sm:rounded-md text-sm focus:outline-none border border-[#AAAAAA] placeholder-[#888]"
-              placeholder="Enter your email"
-            />
-            <button
-              class="px-4 py-4 text-white transition duration-300 rounded-md bg-blue-gradient sm:py-3 hover:shadow-md"
-            >
-              <ArrowRightIcon :size="20" />
-            </button>
-          </div>
-        </div> -->
       </div>
     </div>
     <div class="pt-8 sm:pt-6 pb-3 text-center text-sm text-[#666666] hover:text-gray-900">
       &copy; Copyright 2024 Dmuchane zamki Kępno. Wszystkie prawa zastrzeżone
     </div>
     <div class="pb-8 text-center text-sm text-[#666666] hover:text-gray-900">
-      Realizacja <a href="https://www.facebook.com/profile.php?id=100008562976078">Mateuz Małolepszy</a>
+      Realizacja <a href="https://www.facebook.com/profile.php?id=100008562976078">Mateusz Małolepszy</a>
     </div>
   </footer>
 </template>
