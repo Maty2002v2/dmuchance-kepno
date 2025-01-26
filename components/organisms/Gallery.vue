@@ -70,6 +70,11 @@ const swiperGalleryData = [
     image: '/img/gallery/wata-cukrowa-popcorn/wata-cukrowa.webp',
     title: 'Wata cukrowa, popcorn',
     link: '/galeria/wata-cukrowa-popcorn'
+  },
+  {
+    image: '/img/gallery/rywalizacja/sumo1.jpeg',
+    title: 'Rywalizacja',
+    link: '/galeria/rywalizacja'
   }
 ]
 </script>
